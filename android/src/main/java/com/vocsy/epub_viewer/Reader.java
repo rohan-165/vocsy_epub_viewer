@@ -166,14 +166,24 @@ public class Reader implements OnHighlightListener, ReadLocatorListener, FolioRe
         return null;
     }
 
+    public void setReadLocator(ReadLocator locator) {
+     this.read_locator = locator;
+     Log.i("readLocator", "ReadLocator set: " + (read_locator != null ? "not null" : "null"));
+    }
+
     @Override
     public void onFolioReaderClosed() {
-        Log.i("readLocator", "-> saveReadLocator -> " + read_locator.toJson());
+    if (read_locator != null) {
+        String jsonLocator = read_locator.toJson();
+        Log.i("readLocator", "-> saveReadLocator -> " + jsonLocator);
 
         if (pageEventSink != null) {
-            pageEventSink.success(read_locator.toJson());
+            pageEventSink.success(jsonLocator);
         }
+    } else {
+        Log.w("readLocator", "ReadLocator is null");
     }
+}
 
     @Override
     public void onHighlight(HighLight highlight, HighLight.HighLightAction type) {
