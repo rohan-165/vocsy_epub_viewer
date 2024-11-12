@@ -23,6 +23,7 @@ dev_dependencies:
 
 dependency_overrides:
   file: ^7.0.0
+  win32: ^5.1.2 # Replace this with the version you want to use
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

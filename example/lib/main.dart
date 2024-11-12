@@ -108,7 +108,7 @@ class _MyAppState extends State<MyApp> {
                           VocsyEpub.setConfig(
                             themeColor: Theme.of(context).primaryColor,
                             identifier: "iosBook",
-                            scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                            scrollDirection: EpubScrollDirection.HORIZONTAL,
                             allowSharing: true,
                             enableTts: true,
                             nightMode: true,
@@ -125,7 +125,9 @@ class _MyAppState extends State<MyApp> {
                               "bookId": "2239",
                               "href": "/OEBPS/ch06.xhtml",
                               "created": 1539934158390,
-                              "locations": {"cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"}
+                              "locations": {
+                                "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                              }
                             }),
                           );
                         }
@@ -137,7 +139,7 @@ class _MyAppState extends State<MyApp> {
                         VocsyEpub.setConfig(
                           themeColor: Theme.of(context).primaryColor,
                           identifier: "iosBook",
-                          scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
                           allowSharing: true,
                           enableTts: true,
                           nightMode: true,
@@ -152,11 +154,97 @@ class _MyAppState extends State<MyApp> {
                             "bookId": "2239",
                             "href": "/OEBPS/ch06.xhtml",
                             "created": 1539934158390,
-                            "locations": {"cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"}
+                            "locations": {
+                              "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                            }
                           }),
                         );
                       },
                       child: Text('Open Assets E-pub'),
+                    ),
+                    ElevatedButton(
+                      onPressed: () async {
+                        VocsyEpub.setConfig(
+                          themeColor: Theme.of(context).primaryColor,
+                          identifier: "iosBook",
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
+                          allowSharing: true,
+                          enableTts: true,
+                          nightMode: true,
+                        );
+                        // get current locator
+                        VocsyEpub.locatorStream.listen((locator) {
+                          print('LOCATOR: $locator');
+                        });
+                        await VocsyEpub.openAsset(
+                          'assets/Final.epub',
+                          lastLocation: EpubLocator.fromJson({
+                            "bookId": "2239",
+                            "href": "/OEBPS/ch06.xhtml",
+                            "created": 1539934158390,
+                            "locations": {
+                              "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                            }
+                          }),
+                        );
+                      },
+                      child: Text('Open Assets Final'),
+                    ),
+                    ElevatedButton(
+                      onPressed: () async {
+                        VocsyEpub.setConfig(
+                          themeColor: Theme.of(context).primaryColor,
+                          identifier: "iosBook",
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
+                          allowSharing: true,
+                          enableTts: true,
+                          nightMode: true,
+                        );
+                        // get current locator
+                        VocsyEpub.locatorStream.listen((locator) {
+                          print('LOCATOR: $locator');
+                        });
+                        await VocsyEpub.openAsset(
+                          'assets/Kutniti.epub',
+                          lastLocation: EpubLocator.fromJson({
+                            "bookId": "2239",
+                            "href": "/OEBPS/ch06.xhtml",
+                            "created": 1539934158390,
+                            "locations": {
+                              "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                            }
+                          }),
+                        );
+                      },
+                      child: Text('Open Assets Kutniti'),
+                    ),
+                    ElevatedButton(
+                      onPressed: () async {
+                        VocsyEpub.setConfig(
+                          themeColor: Theme.of(context).primaryColor,
+                          identifier: "iosBook",
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
+                          allowSharing: true,
+                          enableTts: true,
+                          nightMode: true,
+                        );
+                        // get current locator
+                        VocsyEpub.locatorStream.listen((locator) {
+                          print('LOCATOR: $locator');
+                        });
+                        await VocsyEpub.openAsset(
+                          'assets/Walliko.epub',
+                          lastLocation: EpubLocator.fromJson({
+                            "bookId": "2239",
+                            "href": "/OEBPS/ch06.xhtml",
+                            "created": 1539934158390,
+                            "locations": {
+                              "cfi": "epubcfi(/0!/4/4[simple_book]/2/2/6)"
+                            }
+                          }),
+                        );
+                      },
+                      child: Text('Open Assets Walliko'),
                     ),
                   ],
                 ),
@@ -169,7 +257,9 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       loading = true;
     });
-    Directory? appDocDir = Platform.isAndroid ? await getExternalStorageDirectory() : await getApplicationDocumentsDirectory();
+    Directory? appDocDir = Platform.isAndroid
+        ? await getExternalStorageDirectory()
+        : await getApplicationDocumentsDirectory();
 
     String path = appDocDir!.path + '/sample.epub';
     File file = File(path);
