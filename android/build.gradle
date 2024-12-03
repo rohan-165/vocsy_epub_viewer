@@ -35,8 +35,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.rohan-165:Epub-Reader:12.0.7'
-//    implementation 'com.github.kaushikgodhani:vocsy_epub_viewer_android_folioreader:V4'
+    implementation 'com.github.rohan-165:Book-Reader:12.0.8'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.8'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.7'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
