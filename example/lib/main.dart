@@ -24,7 +24,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
-    download();
+    // download();
     super.initState();
   }
 
@@ -267,7 +267,7 @@ class _MyAppState extends State<MyApp> {
     if (!File(path).existsSync()) {
       await file.create();
       await dio.download(
-        "https://cdn.ambition.guru/agcdn/medias/2024/8/21/Rudane-3.epub?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=c7eonfN7gZfsnkZK%2F20241118%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241118T042118Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=7bdd3cdd4e2d72ff1ec1d12a0e743a72cf58629ff1998ac66b923b6007713bf1",
+        "https://agimgcdn.b-cdn.net/medias/2024/12/4/Silva-Mind-Control-Method-The---Jose-Silva-Philip-Miele.epub?token=7gkg0lza5xRhjS-4rbve5-6jJV1Pu9MRjJq2XQ3IiKI&class=thumbnail&expires=1733651954",
         // "https://vocsyinfotech.in/envato/cc/flutter_ebook/uploads/22566_The-Racketeer---John-Grisham.epub",
         path,
         deleteOnError: true,
