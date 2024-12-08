@@ -133,19 +133,53 @@ public class EpubViewerPlugin implements MethodCallHandler, FlutterPlugin, Activ
                     scrollDirection, allowSharing, enableTts, nightMode);
 
         } else if (call.method.equals("open")) {
-
             Map<String, Object> arguments = (Map<String, Object>) call.arguments;
             String bookPath = arguments.get("bookPath").toString();
             String lastLocation = arguments.get("lastLocation").toString();
 
             Log.i("opening", "In open function");
 
-            if (sink == null) {
-                Log.i("sink status", "sink is empty");
-            }
-            reader = new Reader(context, messenger, config, sink);
-            reader.open(bookPath, lastLocation);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                // For Android 13 and above
+                if (ContextCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_IMAGES) == PackageManager.PERMISSION_GRANTED ||
+                        ContextCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_VIDEO) == PackageManager.PERMISSION_GRANTED ||
+                        ContextCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_AUDIO) == PackageManager.PERMISSION_GRANTED) {
 
+                    openReader(bookPath, lastLocation);
+                } else {
+                    ActivityCompat.requestPermissions(
+                            activity,
+                            new String[]{
+                                    Manifest.permission.READ_MEDIA_IMAGES,
+                                    Manifest.permission.READ_MEDIA_VIDEO,
+                                    Manifest.permission.READ_MEDIA_AUDIO
+                            },
+                            REQUEST_CODE_STORAGE_PERMISSION
+                    );
+                }
+            } else if (Build.VERSION.SDK_INT == Build.VERSION_CODES.S) {
+                // For Android 12
+                if (ContextCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                    openReader(bookPath, lastLocation);
+                } else {
+                    ActivityCompat.requestPermissions(
+                            activity,
+                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                            REQUEST_CODE_STORAGE_PERMISSION
+                    );
+                }
+            } else {
+                // For Android 11 and below
+                if (ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+                    openReader(bookPath, lastLocation);
+                } else {
+                    ActivityCompat.requestPermissions(
+                            activity,
+                            new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                            REQUEST_CODE_STORAGE_PERMISSION
+                    );
+                }
+            }
         } else if (call.method.equals("close")) {
             reader.close();
         } else if (call.method.equals("setChannel")) {
@@ -170,5 +204,14 @@ public class EpubViewerPlugin implements MethodCallHandler, FlutterPlugin, Activ
         else {
             result.notImplemented();
         }
+    }
+
+    private void openReader(String bookPath, String lastLocation) {
+        Log.i("Reader Status", "Opening the reader");
+        if (sink == null) {
+            Log.i("sink status", "sink is empty");
+        }
+        reader = new Reader(context, messenger, config, sink);
+        reader.open(bookPath, lastLocation);
     }
 }
