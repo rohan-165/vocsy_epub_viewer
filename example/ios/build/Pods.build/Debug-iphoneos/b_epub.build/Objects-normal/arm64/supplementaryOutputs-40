@@ -1,0 +1,24 @@
+"/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/b_epub/FolioReaderKit/Vendor/SMSegmentView/SMSegment.swift":
+  dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegment.d"
+  swift-dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegment.swiftdeps"
+  object: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegment.o"
+  diagnostics: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegment.dia"
+  const-values: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegment.swiftconstvalues"
+"/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/b_epub/FolioReaderKit/Vendor/SMSegmentView/SMSegmentView.swift":
+  diagnostics: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegmentView.dia"
+  object: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegmentView.o"
+  dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegmentView.d"
+  swift-dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegmentView.swiftdeps"
+  const-values: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/SMSegmentView.swiftconstvalues"
+"/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/b_epub/FolioReaderKit/Source/ScrollScrubber.swift":
+  object: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/ScrollScrubber.o"
+  const-values: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/ScrollScrubber.swiftconstvalues"
+  dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/ScrollScrubber.d"
+  diagnostics: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/ScrollScrubber.dia"
+  swift-dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/ScrollScrubber.swiftdeps"
+"/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/DerivedSources/GeneratedAssetSymbols.swift":
+  dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/GeneratedAssetSymbols.d"
+  const-values: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues"
+  object: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  swift-dependencies: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
+  diagnostics: "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/b_epub.build/Objects-normal/arm64/GeneratedAssetSymbols.dia"

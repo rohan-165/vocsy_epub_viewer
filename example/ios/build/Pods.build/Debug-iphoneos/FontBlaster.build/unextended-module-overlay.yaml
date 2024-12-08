@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/FontBlaster/FontBlaster.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/FontBlaster.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/FontBlaster/FontBlaster.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "FontBlaster-Swift.h",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/FontBlaster.build/unextended-interface-header.h",
+    }]
+    }]
+}

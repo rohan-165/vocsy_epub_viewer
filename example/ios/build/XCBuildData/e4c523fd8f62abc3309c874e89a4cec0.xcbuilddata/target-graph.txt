@@ -1,0 +1,53 @@
+Target dependency graph (15 targets)
+Target 'Runner' in project 'Runner'
+➜ Implicit dependency on target 'Pods-Runner' in project 'Pods' via file 'Pods_Runner.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'AEXML' in project 'Pods' via options '-framework AEXML' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'FontBlaster' in project 'Pods' via options '-framework FontBlaster' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'MenuItemKit' in project 'Pods' via options '-framework MenuItemKit' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Realm' in project 'Pods' via options '-framework Realm' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'RealmSwift' in project 'Pods' via options '-framework RealmSwift' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SSZipArchive' in project 'Pods' via options '-framework SSZipArchive' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'ZFDragableModalTransition' in project 'Pods' via options '-framework ZFDragableModalTransition' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'b_epub' in project 'Pods' via options '-framework b_epub' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'path_provider_foundation' in project 'Pods' via options '-framework path_provider_foundation' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'permission_handler_apple' in project 'Pods' via options '-framework permission_handler_apple' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'vocsy_epub_viewer' in project 'Pods' via options '-framework vocsy_epub_viewer' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-Runner' in project 'Pods'
+➜ Explicit dependency on target 'AEXML' in project 'Pods'
+➜ Explicit dependency on target 'Flutter' in project 'Pods'
+➜ Explicit dependency on target 'FontBlaster' in project 'Pods'
+➜ Explicit dependency on target 'MenuItemKit' in project 'Pods'
+➜ Explicit dependency on target 'Realm' in project 'Pods'
+➜ Explicit dependency on target 'RealmSwift' in project 'Pods'
+➜ Explicit dependency on target 'SSZipArchive' in project 'Pods'
+➜ Explicit dependency on target 'ZFDragableModalTransition' in project 'Pods'
+➜ Explicit dependency on target 'b_epub' in project 'Pods'
+➜ Explicit dependency on target 'path_provider_foundation' in project 'Pods'
+➜ Explicit dependency on target 'permission_handler_apple' in project 'Pods'
+➜ Explicit dependency on target 'vocsy_epub_viewer' in project 'Pods'
+Target 'vocsy_epub_viewer' in project 'Pods'
+➜ Explicit dependency on target 'Flutter' in project 'Pods'
+➜ Explicit dependency on target 'b_epub' in project 'Pods'
+Target 'permission_handler_apple' in project 'Pods'
+➜ Explicit dependency on target 'Flutter' in project 'Pods'
+Target 'path_provider_foundation' in project 'Pods'
+➜ Explicit dependency on target 'Flutter' in project 'Pods'
+➜ Explicit dependency on target 'path_provider_foundation-path_provider_foundation_privacy' in project 'Pods'
+Target 'path_provider_foundation-path_provider_foundation_privacy' in project 'Pods' (no dependencies)
+Target 'b_epub' in project 'Pods'
+➜ Explicit dependency on target 'AEXML' in project 'Pods'
+➜ Explicit dependency on target 'FontBlaster' in project 'Pods'
+➜ Explicit dependency on target 'MenuItemKit' in project 'Pods'
+➜ Explicit dependency on target 'Realm' in project 'Pods'
+➜ Explicit dependency on target 'RealmSwift' in project 'Pods'
+➜ Explicit dependency on target 'SSZipArchive' in project 'Pods'
+➜ Explicit dependency on target 'ZFDragableModalTransition' in project 'Pods'
+Target 'ZFDragableModalTransition' in project 'Pods' (no dependencies)
+Target 'SSZipArchive' in project 'Pods' (no dependencies)
+Target 'RealmSwift' in project 'Pods'
+➜ Explicit dependency on target 'Realm' in project 'Pods'
+Target 'Realm' in project 'Pods' (no dependencies)
+Target 'MenuItemKit' in project 'Pods' (no dependencies)
+Target 'FontBlaster' in project 'Pods' (no dependencies)
+Target 'Flutter' in project 'Pods' (no dependencies)
+Target 'AEXML' in project 'Pods' (no dependencies)

@@ -1,0 +1,115 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4283bec99342c82692e2ca34f1ff031001"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429da425bb6d6d5d8dbb95e4afffb82217"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42acf2e69b87240f06e1d7c3e9cf20330d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d12b7546f8253c74cf16f79f6fa80d37"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42483832d3c820398e9d40e1a6904b03fe"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c55f754f2a4256631cf6e7955c79207c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4281644adaf2ad701878e9176138fbdacd"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd426f184aaa317f5985a6d0a56b4d2e0c13"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42de0ba28c3a135d03a9781cb2f18bab11"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b3ad5738bda84b5e5cbf8b01e0e331c1"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4230037b09fee48cfce1f8562d753688c8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427ea64ee8d53085bf9edd1a57aaf8cbb5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ef10255b706f98e1e88fae00855b0968"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b3182ef8df88cbd306b8f4cad2c9cbc0"
+    },
+    {
+      "guid" : "18c1723432283e0cc55f10a6dcfd9e0288a783a885d8b0b3beb2e9f90bde3f49"
+    },
+    {
+      "guid" : "18c1723432283e0cc55f10a6dcfd9e02b835f5f63276aec8d000a1f39e912778"
+    }
+  ],
+  "containerPath" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Runner.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/anjal/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/anjal/Library/Developer/Xcode/DerivedData/Runner-fwgtuwtivewyrxcjyrkfmokhkulh/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/anjal/Library/Developer/Xcode/DerivedData/Runner-fwgtuwtivewyrxcjyrkfmokhkulh/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPad13,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.1.1",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPad13,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "00008101-00010C590E09001E",
+          "TARGET_DEVICE_MODEL" : "iPad13,1",
+          "TARGET_DEVICE_OS_VERSION" : "18.1.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

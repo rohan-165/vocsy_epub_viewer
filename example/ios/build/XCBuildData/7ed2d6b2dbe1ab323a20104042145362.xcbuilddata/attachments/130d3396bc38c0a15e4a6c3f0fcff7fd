@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/vocsy_epub_viewer/vocsy_epub_viewer.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/vocsy_epub_viewer/vocsy_epub_viewer.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "vocsy_epub_viewer-Swift.h",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/unextended-interface-header.h",
+    }]
+    }]
+}

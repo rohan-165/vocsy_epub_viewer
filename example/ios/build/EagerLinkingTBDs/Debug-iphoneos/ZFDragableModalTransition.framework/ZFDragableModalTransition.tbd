@@ -1,0 +1,38 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_ZFDragableModalTransitionVersionNumber",
+            "_ZFDragableModalTransitionVersionString"
+          ],
+          "objc_class": [
+            "ZFDetectScrollViewEndGestureRecognizer",
+            "PodsDummy_ZFDragableModalTransition",
+            "ZFModalTransitionAnimator"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/ZFDragableModalTransition.framework/ZFDragableModalTransition"
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "9",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

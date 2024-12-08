@@ -1,17 +1,19 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '12.0'
+platform :ios, '13.0'  # Set minimum deployment target to iOS 13.0 or higher
 
-# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+# CocoaPods analytics sends network stats synchronously affecting Flutter build latency.
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
+# Define the project configuration for different build modes.
 project 'Runner', {
   'Debug' => :debug,
   'Profile' => :release,
   'Release' => :release,
 }
 
+# Function to retrieve the Flutter root path.
 def flutter_root
   generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
+  
   unless File.exist?(generated_xcode_build_settings_path)
     raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure flutter pub get is executed first"
   end
@@ -23,22 +25,36 @@ def flutter_root
   raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Generated.xcconfig, then run flutter pub get"
 end
 
+# Import Flutter-specific helper functions for iOS setup.
 require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
 
+# Setup the Flutter iOS dependencies.
 flutter_ios_podfile_setup
 
+# Target configuration for the main app.
 target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
+  # Install Flutter iOS dependencies.
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+  
+  # Target configuration for unit tests (RunnerTests).
   target 'RunnerTests' do
     inherit! :search_paths
   end
 end
 
+# Post-installation hook to apply additional build settings.
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     flutter_additional_ios_build_settings(target)
+      target.build_configurations.each do |config|
+        config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+      end
   end
 end
+
+
+
+

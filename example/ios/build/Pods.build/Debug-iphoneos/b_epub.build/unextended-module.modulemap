@@ -1,0 +1,10 @@
+framework module b_epub {
+  umbrella header "b_epub-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module b_epub.__Swift {
+  exclude header "b_epub-Swift.h"
+}

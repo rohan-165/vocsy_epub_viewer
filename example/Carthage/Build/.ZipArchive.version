@@ -1,0 +1,17 @@
+{
+  "iOS" : [
+    {
+      "hash" : "5c04da95fcd50ec293a5100ca608abf3d79e105563c17e568cf1e15182f2f1ec",
+      "container" : "ZipArchive.xcframework",
+      "identifier" : "ios-arm64",
+      "name" : "ZipArchive"
+    },
+    {
+      "name" : "ZipArchive",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "ac06dced56d5b4e649183bbb6e18f78718bac73921e871acac4a2469c9a7029b",
+      "container" : "ZipArchive.xcframework"
+    }
+  ],
+  "commitish" : "2.6.0"
+}

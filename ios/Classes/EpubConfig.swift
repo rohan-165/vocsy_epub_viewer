@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import EpubViewerKit
+import b_epub
 
 class EpubConfig: NSObject {
     
@@ -14,7 +14,7 @@ class EpubConfig: NSObject {
     
     open var tintColor: UIColor = UIColor.init(rgba:"#fdd82c")
     open var allowSharing: Bool = false
-    open var scrollDirection: FolioReaderScrollDirection = FolioReaderScrollDirection.vertical
+	open var scrollDirection: FolioReaderScrollDirection = FolioReaderScrollDirection.horizontal
     
     init(Identifier: String,tintColor: String, allowSharing: Bool,
             scrollDirection: String, enableTts: Bool, nightMode: Bool) {
@@ -27,7 +27,8 @@ class EpubConfig: NSObject {
         }else if (scrollDirection == "horizontal"){
             self.config.scrollDirection = FolioReaderScrollDirection.horizontal
         }else{
-            self.config.canChangeScrollDirection = true
+  self.config.canChangeScrollDirection = true
+
         }
         self.config.enableTTS = enableTts
         self.config.hidePageIndicator = false

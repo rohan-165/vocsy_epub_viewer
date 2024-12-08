@@ -1,0 +1,71 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s11FontBlasterAAC5blast6bundleySo8NSBundleC_tFZ",
+            "_$s11FontBlasterAACABycfc",
+            "_$s11FontBlasterAAC11loadedFontsSaySSGvgZ",
+            "_FontBlasterVersionNumber",
+            "_$s11FontBlasterAAC12debugEnabledSbvgZ",
+            "_$s11FontBlasterAACfD",
+            "_$s11FontBlasterAAC5blast6bundle10completionySo8NSBundleC_ySaySSGcSgtFZ",
+            "_Swift50Overrides",
+            "_$s11FontBlasterAACABycfC",
+            "_$s11FontBlasterAACfd",
+            "_$s11FontBlasterAAC11loadedFontsSaySSGvpZ",
+            "_$s11FontBlasterAAC11loadedFontsSaySSGvMZ",
+            "_$s11FontBlasterAACMa",
+            "_Swift51Overrides",
+            "_$s11FontBlasterAACN",
+            "_$s11FontBlasterAAC11loadedFontsSaySSGvsZ",
+            "_$s11FontBlasterAAC12debugEnabledSbvsZ",
+            "_$s11FontBlasterAACABycfCTq",
+            "_$s11FontBlasterAAC12debugEnabledSbvMZ",
+            "_$s11FontBlasterAAC11loadedFontsSaySSGvau",
+            "_$s11FontBlasterAACMn",
+            "_$s11FontBlasterAAC12debugEnabledSbvau",
+            "_FontBlasterVersionString",
+            "_$s11FontBlasterAAC12debugEnabledSbvpZ",
+            "_$s11FontBlasterAACMm"
+          ],
+          "objc_class": [
+            "PodsDummy_FontBlaster"
+          ]
+        },
+        "text": {
+          "global": [
+            "__ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E",
+            "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE",
+            "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/FontBlaster.framework/FontBlaster"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "9",
+        "target": "x86_64-ios-simulator"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

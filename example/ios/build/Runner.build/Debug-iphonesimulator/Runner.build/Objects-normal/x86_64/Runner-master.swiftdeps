@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "80f91ae10f7127aa6db8066cc3a8e20d628ac3f61e56750006951c71e4e847bd"
+build_start_time: [1733649167, 505615000]
+build_end_time: [1733649178, 943189000]
+inputs:
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Runner/AppDelegate.swift": [1733137033, 79418053]
+  ? "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Runner.build/Debug-iphonesimulator/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1733649167, 405605271]

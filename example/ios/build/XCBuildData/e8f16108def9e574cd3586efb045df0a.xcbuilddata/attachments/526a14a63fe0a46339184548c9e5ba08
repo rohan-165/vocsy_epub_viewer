@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/AEXML-master.dia",
+    "emit-module-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/AEXML-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/AEXML-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/AEXML-master.swiftdeps"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/AEXML/Sources/AEXML/Document.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Document~partial.swiftmodule"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/AEXML/Sources/AEXML/Element.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Element~partial.swiftmodule"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/AEXML/Sources/AEXML/Error.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Error~partial.swiftmodule"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/AEXML/Sources/AEXML/Options.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Options~partial.swiftmodule"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/AEXML/Sources/AEXML/Parser.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/AEXML.build/Objects-normal/arm64/Parser~partial.swiftmodule"
+  }
+}

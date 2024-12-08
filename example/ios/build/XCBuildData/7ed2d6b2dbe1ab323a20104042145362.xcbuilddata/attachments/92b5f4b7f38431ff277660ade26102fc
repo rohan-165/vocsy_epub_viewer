@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/RealmSwift.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "RealmSwift-Swift.h",
+      'external-contents': "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/RealmSwift.build/unextended-interface-header.h",
+    }]
+    }]
+}

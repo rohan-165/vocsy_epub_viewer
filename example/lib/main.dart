@@ -8,16 +8,18 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:vocsy_epub_viewer/epub_viewer.dart';
 
 void main() async {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
 
 class _MyAppState extends State<MyApp> {
-  final platform = MethodChannel('my_channel');
+  final platform = const MethodChannel('my_channel');
   bool loading = false;
   Dio dio = Dio();
   String filePath = "";
@@ -89,7 +91,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: loading
-              ? Column(
+              ? const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     CircularProgressIndicator(),
@@ -132,12 +134,12 @@ class _MyAppState extends State<MyApp> {
                           );
                         }
                       },
-                      child: Text('Open Online E-pub'),
+                      child: const Text('Open Online E-pub'),
                     ),
                     ElevatedButton(
                       onPressed: () async {
                         VocsyEpub.setConfig(
-                          themeColor: Theme.of(context).primaryColor,
+                          themeColor: Colors.black,
                           identifier: "iosBook",
                           scrollDirection: EpubScrollDirection.HORIZONTAL,
                           allowSharing: true,
@@ -160,14 +162,14 @@ class _MyAppState extends State<MyApp> {
                           }),
                         );
                       },
-                      child: Text('Open Assets Test E-pub'),
+                      child: const Text('Open Assets Test E-pub'),
                     ),
                     ElevatedButton(
                       onPressed: () async {
                         VocsyEpub.setConfig(
-                          themeColor: Theme.of(context).primaryColor,
+                          themeColor: Colors.black,
                           identifier: "iosBook",
-                          scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
                           allowSharing: true,
                           enableTts: true,
                           nightMode: true,
@@ -188,14 +190,14 @@ class _MyAppState extends State<MyApp> {
                           }),
                         );
                       },
-                      child: Text('Open Assets Alice E-pub'),
+                      child: const Text('Open Assets Alice E-pub'),
                     ),
                     ElevatedButton(
                       onPressed: () async {
                         VocsyEpub.setConfig(
                           themeColor: Theme.of(context).primaryColor,
                           identifier: "iosBook",
-                          scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
                           allowSharing: true,
                           enableTts: true,
                           nightMode: true,
@@ -216,14 +218,14 @@ class _MyAppState extends State<MyApp> {
                           }),
                         );
                       },
-                      child: Text('Open Assets kutniti E-pub'),
+                      child: const Text('Open Assets kutniti E-pub'),
                     ),
                     ElevatedButton(
                       onPressed: () async {
                         VocsyEpub.setConfig(
                           themeColor: Theme.of(context).primaryColor,
                           identifier: "iosBook",
-                          scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
+                          scrollDirection: EpubScrollDirection.HORIZONTAL,
                           allowSharing: true,
                           enableTts: true,
                           nightMode: true,
@@ -244,7 +246,7 @@ class _MyAppState extends State<MyApp> {
                           }),
                         );
                       },
-                      child: Text('Open Assets walliko E-pub'),
+                      child: const Text('Open Assets walliko E-pub'),
                     ),
                   ],
                 ),
@@ -261,7 +263,7 @@ class _MyAppState extends State<MyApp> {
         ? await getExternalStorageDirectory()
         : await getApplicationDocumentsDirectory();
 
-    String path = appDocDir!.path + '/sample.epub';
+    String path = '${appDocDir!.path}/sample.epub';
     File file = File(path);
 
     if (!File(path).existsSync()) {

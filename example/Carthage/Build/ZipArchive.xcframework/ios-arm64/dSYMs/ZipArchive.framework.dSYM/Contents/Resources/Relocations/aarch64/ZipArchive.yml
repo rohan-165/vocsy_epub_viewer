@@ -1,0 +1,539 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/anjal/Library/Caches/org.carthage.CarthageKit/DerivedData/15.4_15F31d/ZipArchive/2.6.0/Build/Intermediates.noindex/ArchiveIntermediates/ZipArchive-iOS/BuildProductsPath/Release-iphoneos/ZipArchive.framework/ZipArchive'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x514FC, size: 0x8, addend: 0x0, symName: _ZipArchiveVersionString, symObjAddr: 0x0, symBinAddr: 0x1A020, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x51531, size: 0x8, addend: 0x0, symName: _ZipArchiveVersionNumber, symObjAddr: 0x30, symBinAddr: 0x1A050, symSize: 0x0 }
+  - { offsetInCU: 0x26, offset: 0x5156D, size: 0x8, addend: 0x0, symName: _mz_os_utf8_string_create, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x4 }
+  - { offsetInCU: 0xD3, offset: 0x5161A, size: 0x8, addend: 0x0, symName: _mz_os_utf8_string_create, symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x4 }
+  - { offsetInCU: 0x10A, offset: 0x51651, size: 0x8, addend: 0x0, symName: _mz_os_utf8_string_delete, symObjAddr: 0x4, symBinAddr: 0x8004, symSize: 0x2C }
+  - { offsetInCU: 0x131, offset: 0x51678, size: 0x8, addend: 0x0, symName: _mz_os_rand, symObjAddr: 0x30, symBinAddr: 0x8030, symSize: 0x34 }
+  - { offsetInCU: 0x18F, offset: 0x516D6, size: 0x8, addend: 0x0, symName: _mz_os_rename, symObjAddr: 0x64, symBinAddr: 0x8064, symSize: 0x20 }
+  - { offsetInCU: 0x211, offset: 0x51758, size: 0x8, addend: 0x0, symName: _mz_os_unlink, symObjAddr: 0x84, symBinAddr: 0x8084, symSize: 0x20 }
+  - { offsetInCU: 0x266, offset: 0x517AD, size: 0x8, addend: 0x0, symName: _mz_os_file_exists, symObjAddr: 0xA4, symBinAddr: 0x80A4, symSize: 0x44 }
+  - { offsetInCU: 0x2DF, offset: 0x51826, size: 0x8, addend: 0x0, symName: _mz_os_get_file_size, symObjAddr: 0xE8, symBinAddr: 0x80E8, symSize: 0x58 }
+  - { offsetInCU: 0x337, offset: 0x5187E, size: 0x8, addend: 0x0, symName: _mz_os_get_file_date, symObjAddr: 0x140, symBinAddr: 0x8140, symSize: 0xC0 }
+  - { offsetInCU: 0x403, offset: 0x5194A, size: 0x8, addend: 0x0, symName: _mz_os_set_file_date, symObjAddr: 0x200, symBinAddr: 0x8200, symSize: 0x30 }
+  - { offsetInCU: 0x4AC, offset: 0x519F3, size: 0x8, addend: 0x0, symName: _mz_os_get_file_attribs, symObjAddr: 0x230, symBinAddr: 0x8230, symSize: 0x58 }
+  - { offsetInCU: 0x540, offset: 0x51A87, size: 0x8, addend: 0x0, symName: _mz_os_set_file_attribs, symObjAddr: 0x288, symBinAddr: 0x8288, symSize: 0x24 }
+  - { offsetInCU: 0x5BF, offset: 0x51B06, size: 0x8, addend: 0x0, symName: _mz_os_make_dir, symObjAddr: 0x2AC, symBinAddr: 0x82AC, symSize: 0x38 }
+  - { offsetInCU: 0x634, offset: 0x51B7B, size: 0x8, addend: 0x0, symName: _mz_os_open_dir, symObjAddr: 0x2E4, symBinAddr: 0x82E4, symSize: 0x4 }
+  - { offsetInCU: 0x662, offset: 0x51BA9, size: 0x8, addend: 0x0, symName: _mz_os_open_dir, symObjAddr: 0x2E4, symBinAddr: 0x82E4, symSize: 0x4 }
+  - { offsetInCU: 0x691, offset: 0x51BD8, size: 0x8, addend: 0x0, symName: _mz_os_read_dir, symObjAddr: 0x2E8, symBinAddr: 0x82E8, symSize: 0xC }
+  - { offsetInCU: 0x6E5, offset: 0x51C2C, size: 0x8, addend: 0x0, symName: _mz_os_close_dir, symObjAddr: 0x2F4, symBinAddr: 0x82F4, symSize: 0x2C }
+  - { offsetInCU: 0x736, offset: 0x51C7D, size: 0x8, addend: 0x0, symName: _mz_os_is_dir, symObjAddr: 0x320, symBinAddr: 0x8320, symSize: 0x4C }
+  - { offsetInCU: 0x791, offset: 0x51CD8, size: 0x8, addend: 0x0, symName: _mz_os_is_symlink, symObjAddr: 0x36C, symBinAddr: 0x836C, symSize: 0x4C }
+  - { offsetInCU: 0x7EC, offset: 0x51D33, size: 0x8, addend: 0x0, symName: _mz_os_make_symlink, symObjAddr: 0x3B8, symBinAddr: 0x83B8, symSize: 0x2C }
+  - { offsetInCU: 0x861, offset: 0x51DA8, size: 0x8, addend: 0x0, symName: _mz_os_read_symlink, symObjAddr: 0x3E4, symBinAddr: 0x83E4, symSize: 0x44 }
+  - { offsetInCU: 0x910, offset: 0x51E57, size: 0x8, addend: 0x0, symName: _mz_os_ms_time, symObjAddr: 0x428, symBinAddr: 0x8428, symSize: 0x70 }
+  - { offsetInCU: 0x26, offset: 0x51F8F, size: 0x8, addend: 0x0, symName: _mz_stream_mem_open, symObjAddr: 0x0, symBinAddr: 0x8498, symSize: 0x24 }
+  - { offsetInCU: 0x40, offset: 0x51FA9, size: 0x8, addend: 0x0, symName: _mz_stream_mem_vtbl, symObjAddr: 0x3D0, symBinAddr: 0x20678, symSize: 0x0 }
+  - { offsetInCU: 0x35A, offset: 0x522C3, size: 0x8, addend: 0x0, symName: _mz_stream_mem_open, symObjAddr: 0x0, symBinAddr: 0x8498, symSize: 0x24 }
+  - { offsetInCU: 0x3CA, offset: 0x52333, size: 0x8, addend: 0x0, symName: _mz_stream_mem_set_size, symObjAddr: 0x24, symBinAddr: 0x84BC, symSize: 0x6C }
+  - { offsetInCU: 0x435, offset: 0x5239E, size: 0x8, addend: 0x0, symName: _mz_stream_mem_is_open, symObjAddr: 0x90, symBinAddr: 0x8528, symSize: 0x14 }
+  - { offsetInCU: 0x470, offset: 0x523D9, size: 0x8, addend: 0x0, symName: _mz_stream_mem_read, symObjAddr: 0xA4, symBinAddr: 0x853C, symSize: 0x7C }
+  - { offsetInCU: 0x4CB, offset: 0x52434, size: 0x8, addend: 0x0, symName: _mz_stream_mem_write, symObjAddr: 0x120, symBinAddr: 0x85B8, symSize: 0xAC }
+  - { offsetInCU: 0x55C, offset: 0x524C5, size: 0x8, addend: 0x0, symName: _mz_stream_mem_tell, symObjAddr: 0x1CC, symBinAddr: 0x8664, symSize: 0x8 }
+  - { offsetInCU: 0x597, offset: 0x52500, size: 0x8, addend: 0x0, symName: _mz_stream_mem_seek, symObjAddr: 0x1D4, symBinAddr: 0x866C, symSize: 0x80 }
+  - { offsetInCU: 0x62F, offset: 0x52598, size: 0x8, addend: 0x0, symName: _mz_stream_mem_close, symObjAddr: 0x254, symBinAddr: 0x86EC, symSize: 0x8 }
+  - { offsetInCU: 0x656, offset: 0x525BF, size: 0x8, addend: 0x0, symName: _mz_stream_mem_error, symObjAddr: 0x25C, symBinAddr: 0x86F4, symSize: 0x8 }
+  - { offsetInCU: 0x67D, offset: 0x525E6, size: 0x8, addend: 0x0, symName: _mz_stream_mem_set_buffer, symObjAddr: 0x264, symBinAddr: 0x86FC, symSize: 0xC }
+  - { offsetInCU: 0x70F, offset: 0x52678, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_buffer, symObjAddr: 0x270, symBinAddr: 0x8708, symSize: 0x28 }
+  - { offsetInCU: 0x74B, offset: 0x526B4, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_buffer, symObjAddr: 0x270, symBinAddr: 0x8708, symSize: 0x28 }
+  - { offsetInCU: 0x781, offset: 0x526EA, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_buffer_at, symObjAddr: 0x298, symBinAddr: 0x8730, symSize: 0x3C }
+  - { offsetInCU: 0x7BA, offset: 0x52723, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_buffer_at_current, symObjAddr: 0x2D4, symBinAddr: 0x876C, symSize: 0x44 }
+  - { offsetInCU: 0x839, offset: 0x527A2, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_buffer_length, symObjAddr: 0x318, symBinAddr: 0x87B0, symSize: 0xC }
+  - { offsetInCU: 0x87A, offset: 0x527E3, size: 0x8, addend: 0x0, symName: _mz_stream_mem_set_buffer_limit, symObjAddr: 0x324, symBinAddr: 0x87BC, symSize: 0x8 }
+  - { offsetInCU: 0x8BB, offset: 0x52824, size: 0x8, addend: 0x0, symName: _mz_stream_mem_set_grow_size, symObjAddr: 0x32C, symBinAddr: 0x87C4, symSize: 0x8 }
+  - { offsetInCU: 0x8FC, offset: 0x52865, size: 0x8, addend: 0x0, symName: _mz_stream_mem_create, symObjAddr: 0x334, symBinAddr: 0x87CC, symSize: 0x48 }
+  - { offsetInCU: 0x937, offset: 0x528A0, size: 0x8, addend: 0x0, symName: _mz_stream_mem_delete, symObjAddr: 0x37C, symBinAddr: 0x8814, symSize: 0x48 }
+  - { offsetInCU: 0x96E, offset: 0x528D7, size: 0x8, addend: 0x0, symName: _mz_stream_mem_get_interface, symObjAddr: 0x3C4, symBinAddr: 0x885C, symSize: 0xC }
+  - { offsetInCU: 0x26, offset: 0x5291D, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_open, symObjAddr: 0x0, symBinAddr: 0x8868, symSize: 0x264 }
+  - { offsetInCU: 0x40, offset: 0x52937, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_vtbl, symObjAddr: 0x760, symBinAddr: 0x206D8, symSize: 0x0 }
+  - { offsetInCU: 0x41E, offset: 0x52D15, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_open, symObjAddr: 0x0, symBinAddr: 0x8868, symSize: 0x264 }
+  - { offsetInCU: 0x749, offset: 0x53040, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_is_open, symObjAddr: 0x264, symBinAddr: 0x8ACC, symSize: 0x14 }
+  - { offsetInCU: 0x784, offset: 0x5307B, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_read, symObjAddr: 0x278, symBinAddr: 0x8AE0, symSize: 0x88 }
+  - { offsetInCU: 0x883, offset: 0x5317A, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_ctr_encrypt, symObjAddr: 0x300, symBinAddr: 0x8B68, symSize: 0xE4 }
+  - { offsetInCU: 0x966, offset: 0x5325D, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_write, symObjAddr: 0x3E4, symBinAddr: 0x8C4C, symSize: 0xDC }
+  - { offsetInCU: 0xA5F, offset: 0x53356, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_tell, symObjAddr: 0x4C0, symBinAddr: 0x8D28, symSize: 0x8 }
+  - { offsetInCU: 0xABA, offset: 0x533B1, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_seek, symObjAddr: 0x4C8, symBinAddr: 0x8D30, symSize: 0x8 }
+  - { offsetInCU: 0xB4C, offset: 0x53443, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_close, symObjAddr: 0x4D0, symBinAddr: 0x8D38, symSize: 0x100 }
+  - { offsetInCU: 0xC15, offset: 0x5350C, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_error, symObjAddr: 0x5D0, symBinAddr: 0x8E38, symSize: 0x8 }
+  - { offsetInCU: 0xC53, offset: 0x5354A, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_set_password, symObjAddr: 0x5D8, symBinAddr: 0x8E40, symSize: 0x10 }
+  - { offsetInCU: 0xC98, offset: 0x5358F, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_set_encryption_mode, symObjAddr: 0x5E8, symBinAddr: 0x8E50, symSize: 0x10 }
+  - { offsetInCU: 0xCDD, offset: 0x535D4, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_get_prop_int64, symObjAddr: 0x5F8, symBinAddr: 0x8E60, symSize: 0x6C }
+  - { offsetInCU: 0xD39, offset: 0x53630, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_set_prop_int64, symObjAddr: 0x664, symBinAddr: 0x8ECC, symSize: 0x28 }
+  - { offsetInCU: 0xD95, offset: 0x5368C, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_create, symObjAddr: 0x68C, symBinAddr: 0x8EF4, symSize: 0x74 }
+  - { offsetInCU: 0xE2B, offset: 0x53722, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_delete, symObjAddr: 0x700, symBinAddr: 0x8F68, symSize: 0x4C }
+  - { offsetInCU: 0xEB5, offset: 0x537AC, size: 0x8, addend: 0x0, symName: _mz_stream_wzaes_get_interface, symObjAddr: 0x74C, symBinAddr: 0x8FB4, symSize: 0xC }
+  - { offsetInCU: 0x26, offset: 0x5381D, size: 0x8, addend: 0x0, symName: _mz_zip_create, symObjAddr: 0x0, symBinAddr: 0x8FC0, symSize: 0x3C }
+  - { offsetInCU: 0x389, offset: 0x53B80, size: 0x8, addend: 0x0, symName: _mz_zip_create, symObjAddr: 0x0, symBinAddr: 0x8FC0, symSize: 0x3C }
+  - { offsetInCU: 0x3C7, offset: 0x53BBE, size: 0x8, addend: 0x0, symName: _mz_zip_delete, symObjAddr: 0x3C, symBinAddr: 0x8FFC, symSize: 0x30 }
+  - { offsetInCU: 0x792, offset: 0x53F89, size: 0x8, addend: 0x0, symName: _mz_zip_open, symObjAddr: 0x6C, symBinAddr: 0x902C, symSize: 0x9AC }
+  - { offsetInCU: 0x132F, offset: 0x54B26, size: 0x8, addend: 0x0, symName: _mz_zip_entry_read_header, symObjAddr: 0x11EC, symBinAddr: 0xA1AC, symSize: 0x898 }
+  - { offsetInCU: 0x1CD2, offset: 0x554C9, size: 0x8, addend: 0x0, symName: _mz_zip_extrafield_contains, symObjAddr: 0x2C90, symBinAddr: 0xBC50, symSize: 0x8C }
+  - { offsetInCU: 0x1DC1, offset: 0x555B8, size: 0x8, addend: 0x0, symName: _mz_zip_entry_read_descriptor, symObjAddr: 0x2D1C, symBinAddr: 0xBCDC, symSize: 0x12C }
+  - { offsetInCU: 0x1F14, offset: 0x5570B, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write_header, symObjAddr: 0x20A8, symBinAddr: 0xB068, symSize: 0x990 }
+  - { offsetInCU: 0x291E, offset: 0x56115, size: 0x8, addend: 0x0, symName: _mz_zip_close, symObjAddr: 0xA18, symBinAddr: 0x99D8, symSize: 0x410 }
+  - { offsetInCU: 0x2DC5, offset: 0x565BC, size: 0x8, addend: 0x0, symName: _mz_zip_entry_close_raw, symObjAddr: 0x337C, symBinAddr: 0xC33C, symSize: 0x3C }
+  - { offsetInCU: 0x2F33, offset: 0x5672A, size: 0x8, addend: 0x0, symName: _mz_zip_entry_is_open, symObjAddr: 0xE28, symBinAddr: 0x9DE8, symSize: 0x20 }
+  - { offsetInCU: 0x2F5C, offset: 0x56753, size: 0x8, addend: 0x0, symName: _mz_zip_entry_close, symObjAddr: 0xE48, symBinAddr: 0x9E08, symSize: 0xC }
+  - { offsetInCU: 0x2F96, offset: 0x5678D, size: 0x8, addend: 0x0, symName: _mz_zip_get_comment, symObjAddr: 0xE54, symBinAddr: 0x9E14, symSize: 0x2C }
+  - { offsetInCU: 0x2FE3, offset: 0x567DA, size: 0x8, addend: 0x0, symName: _mz_zip_set_comment, symObjAddr: 0xE80, symBinAddr: 0x9E40, symSize: 0x94 }
+  - { offsetInCU: 0x3043, offset: 0x5683A, size: 0x8, addend: 0x0, symName: _mz_zip_get_version_madeby, symObjAddr: 0xF14, symBinAddr: 0x9ED4, symSize: 0x20 }
+  - { offsetInCU: 0x3090, offset: 0x56887, size: 0x8, addend: 0x0, symName: _mz_zip_set_version_madeby, symObjAddr: 0xF34, symBinAddr: 0x9EF4, symSize: 0x1C }
+  - { offsetInCU: 0x30DD, offset: 0x568D4, size: 0x8, addend: 0x0, symName: _mz_zip_set_recover, symObjAddr: 0xF50, symBinAddr: 0x9F10, symSize: 0x1C }
+  - { offsetInCU: 0x312A, offset: 0x56921, size: 0x8, addend: 0x0, symName: _mz_zip_set_data_descriptor, symObjAddr: 0xF6C, symBinAddr: 0x9F2C, symSize: 0x1C }
+  - { offsetInCU: 0x3177, offset: 0x5696E, size: 0x8, addend: 0x0, symName: _mz_zip_get_stream, symObjAddr: 0xF88, symBinAddr: 0x9F48, symSize: 0x28 }
+  - { offsetInCU: 0x31C4, offset: 0x569BB, size: 0x8, addend: 0x0, symName: _mz_zip_set_cd_stream, symObjAddr: 0xFB0, symBinAddr: 0x9F70, symSize: 0x24 }
+  - { offsetInCU: 0x31FD, offset: 0x569F4, size: 0x8, addend: 0x0, symName: _mz_zip_get_cd_mem_stream, symObjAddr: 0xFD4, symBinAddr: 0x9F94, symSize: 0x28 }
+  - { offsetInCU: 0x322E, offset: 0x56A25, size: 0x8, addend: 0x0, symName: _mz_zip_set_number_entry, symObjAddr: 0xFFC, symBinAddr: 0x9FBC, symSize: 0x1C }
+  - { offsetInCU: 0x325F, offset: 0x56A56, size: 0x8, addend: 0x0, symName: _mz_zip_get_number_entry, symObjAddr: 0x1018, symBinAddr: 0x9FD8, symSize: 0x20 }
+  - { offsetInCU: 0x32AC, offset: 0x56AA3, size: 0x8, addend: 0x0, symName: _mz_zip_set_disk_number_with_cd, symObjAddr: 0x1038, symBinAddr: 0x9FF8, symSize: 0x1C }
+  - { offsetInCU: 0x32DD, offset: 0x56AD4, size: 0x8, addend: 0x0, symName: _mz_zip_get_disk_number_with_cd, symObjAddr: 0x1054, symBinAddr: 0xA014, symSize: 0x20 }
+  - { offsetInCU: 0x332A, offset: 0x56B21, size: 0x8, addend: 0x0, symName: _mz_zip_entry_read_open, symObjAddr: 0x1074, symBinAddr: 0xA034, symSize: 0xDC }
+  - { offsetInCU: 0x343B, offset: 0x56C32, size: 0x8, addend: 0x0, symName: _mz_zip_entry_seek_local_header, symObjAddr: 0x1150, symBinAddr: 0xA110, symSize: 0x9C }
+  - { offsetInCU: 0x34E8, offset: 0x56CDF, size: 0x8, addend: 0x0, symName: _mz_zip_entry_open_int, symObjAddr: 0x1A84, symBinAddr: 0xAA44, symSize: 0x254 }
+  - { offsetInCU: 0x38A6, offset: 0x5709D, size: 0x8, addend: 0x0, symName: _mz_zip_dosdate_to_time_t, symObjAddr: 0x3C48, symBinAddr: 0xCC08, symSize: 0x74 }
+  - { offsetInCU: 0x39ED, offset: 0x571E4, size: 0x8, addend: 0x0, symName: _mz_zip_entry_close_int, symObjAddr: 0x2E48, symBinAddr: 0xBE08, symSize: 0x48 }
+  - { offsetInCU: 0x3A95, offset: 0x5728C, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write_open, symObjAddr: 0x1CD8, symBinAddr: 0xAC98, symSize: 0x31C }
+  - { offsetInCU: 0x3E99, offset: 0x57690, size: 0x8, addend: 0x0, symName: _mz_zip_attrib_is_dir, symObjAddr: 0x1FF4, symBinAddr: 0xAFB4, symSize: 0x8C }
+  - { offsetInCU: 0x3F59, offset: 0x57750, size: 0x8, addend: 0x0, symName: _mz_zip_time_t_to_tm, symObjAddr: 0x3CBC, symBinAddr: 0xCC7C, symSize: 0x78 }
+  - { offsetInCU: 0x3FC4, offset: 0x577BB, size: 0x8, addend: 0x0, symName: _mz_zip_tm_to_dosdate, symObjAddr: 0x3D34, symBinAddr: 0xCCF4, symSize: 0x84 }
+  - { offsetInCU: 0x407C, offset: 0x57873, size: 0x8, addend: 0x0, symName: _mz_zip_time_t_to_dos_date, symObjAddr: 0x2080, symBinAddr: 0xB040, symSize: 0x28 }
+  - { offsetInCU: 0x4144, offset: 0x5793B, size: 0x8, addend: 0x0, symName: _mz_zip_entry_needs_zip64, symObjAddr: 0x312C, symBinAddr: 0xC0EC, symSize: 0xE4 }
+  - { offsetInCU: 0x41DB, offset: 0x579D2, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write_crc_sizes, symObjAddr: 0x32C4, symBinAddr: 0xC284, symSize: 0x90 }
+  - { offsetInCU: 0x42AA, offset: 0x57AA1, size: 0x8, addend: 0x0, symName: _mz_zip_entry_read, symObjAddr: 0x2A38, symBinAddr: 0xB9F8, symSize: 0x78 }
+  - { offsetInCU: 0x4362, offset: 0x57B59, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write, symObjAddr: 0x2AB0, symBinAddr: 0xBA70, symSize: 0x68 }
+  - { offsetInCU: 0x4425, offset: 0x57C1C, size: 0x8, addend: 0x0, symName: _mz_zip_entry_read_close, symObjAddr: 0x2B18, symBinAddr: 0xBAD8, symSize: 0x178 }
+  - { offsetInCU: 0x45A1, offset: 0x57D98, size: 0x8, addend: 0x0, symName: _mz_zip_extrafield_find, symObjAddr: 0x3A84, symBinAddr: 0xCA44, symSize: 0xAC }
+  - { offsetInCU: 0x468A, offset: 0x57E81, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write_close, symObjAddr: 0x2E90, symBinAddr: 0xBE50, symSize: 0x29C }
+  - { offsetInCU: 0x4979, offset: 0x58170, size: 0x8, addend: 0x0, symName: _mz_zip_entry_write_descriptor, symObjAddr: 0x3210, symBinAddr: 0xC1D0, symSize: 0xB4 }
+  - { offsetInCU: 0x4A95, offset: 0x5828C, size: 0x8, addend: 0x0, symName: _mz_zip_entry_get_compress_stream, symObjAddr: 0x3354, symBinAddr: 0xC314, symSize: 0x28 }
+  - { offsetInCU: 0x4AE2, offset: 0x582D9, size: 0x8, addend: 0x0, symName: _mz_zip_entry_is_dir, symObjAddr: 0x33B8, symBinAddr: 0xC378, symSize: 0x74 }
+  - { offsetInCU: 0x4B3F, offset: 0x58336, size: 0x8, addend: 0x0, symName: _mz_zip_entry_is_symlink, symObjAddr: 0x342C, symBinAddr: 0xC3EC, symSize: 0x40 }
+  - { offsetInCU: 0x4B8B, offset: 0x58382, size: 0x8, addend: 0x0, symName: _mz_zip_attrib_is_symlink, symObjAddr: 0x346C, symBinAddr: 0xC42C, symSize: 0x8C }
+  - { offsetInCU: 0x4C4B, offset: 0x58442, size: 0x8, addend: 0x0, symName: _mz_zip_entry_get_info, symObjAddr: 0x34F8, symBinAddr: 0xC4B8, symSize: 0x2C }
+  - { offsetInCU: 0x4C98, offset: 0x5848F, size: 0x8, addend: 0x0, symName: _mz_zip_entry_get_local_info, symObjAddr: 0x3524, symBinAddr: 0xC4E4, symSize: 0x28 }
+  - { offsetInCU: 0x4D0C, offset: 0x58503, size: 0x8, addend: 0x0, symName: _mz_zip_entry_set_extrafield, symObjAddr: 0x354C, symBinAddr: 0xC50C, symSize: 0x28 }
+  - { offsetInCU: 0x4D8F, offset: 0x58586, size: 0x8, addend: 0x0, symName: _mz_zip_get_entry, symObjAddr: 0x3574, symBinAddr: 0xC534, symSize: 0x14 }
+  - { offsetInCU: 0x4DCD, offset: 0x585C4, size: 0x8, addend: 0x0, symName: _mz_zip_goto_entry, symObjAddr: 0x3588, symBinAddr: 0xC548, symSize: 0x30 }
+  - { offsetInCU: 0x4E28, offset: 0x5861F, size: 0x8, addend: 0x0, symName: _mz_zip_goto_next_entry_int, symObjAddr: 0x35B8, symBinAddr: 0xC578, symSize: 0x64 }
+  - { offsetInCU: 0x4EBD, offset: 0x586B4, size: 0x8, addend: 0x0, symName: _mz_zip_goto_first_entry, symObjAddr: 0x361C, symBinAddr: 0xC5DC, symSize: 0x18 }
+  - { offsetInCU: 0x4EF4, offset: 0x586EB, size: 0x8, addend: 0x0, symName: _mz_zip_goto_next_entry, symObjAddr: 0x3634, symBinAddr: 0xC5F4, symSize: 0x34 }
+  - { offsetInCU: 0x4F7D, offset: 0x58774, size: 0x8, addend: 0x0, symName: _mz_zip_locate_entry, symObjAddr: 0x3668, symBinAddr: 0xC628, symSize: 0xA4 }
+  - { offsetInCU: 0x509D, offset: 0x58894, size: 0x8, addend: 0x0, symName: _mz_zip_path_compare, symObjAddr: 0x370C, symBinAddr: 0xC6CC, symSize: 0xE0 }
+  - { offsetInCU: 0x5188, offset: 0x5897F, size: 0x8, addend: 0x0, symName: _mz_zip_locate_first_entry, symObjAddr: 0x37EC, symBinAddr: 0xC7AC, symSize: 0x74 }
+  - { offsetInCU: 0x5289, offset: 0x58A80, size: 0x8, addend: 0x0, symName: _mz_zip_locate_next_entry, symObjAddr: 0x3860, symBinAddr: 0xC820, symSize: 0x50 }
+  - { offsetInCU: 0x5362, offset: 0x58B59, size: 0x8, addend: 0x0, symName: _mz_zip_attrib_convert, symObjAddr: 0x38B0, symBinAddr: 0xC870, symSize: 0x12C }
+  - { offsetInCU: 0x53E1, offset: 0x58BD8, size: 0x8, addend: 0x0, symName: _mz_zip_attrib_win32_to_posix, symObjAddr: 0x39DC, symBinAddr: 0xC99C, symSize: 0x4C }
+  - { offsetInCU: 0x5408, offset: 0x58BFF, size: 0x8, addend: 0x0, symName: _mz_zip_attrib_posix_to_win32, symObjAddr: 0x3A28, symBinAddr: 0xC9E8, symSize: 0x5C }
+  - { offsetInCU: 0x542F, offset: 0x58C26, size: 0x8, addend: 0x0, symName: _mz_zip_extrafield_read, symObjAddr: 0x3B30, symBinAddr: 0xCAF0, symSize: 0x4C }
+  - { offsetInCU: 0x549F, offset: 0x58C96, size: 0x8, addend: 0x0, symName: _mz_zip_extrafield_write, symObjAddr: 0x3B7C, symBinAddr: 0xCB3C, symSize: 0x3C }
+  - { offsetInCU: 0x556B, offset: 0x58D62, size: 0x8, addend: 0x0, symName: _mz_zip_dosdate_to_tm, symObjAddr: 0x3BB8, symBinAddr: 0xCB78, symSize: 0x90 }
+  - { offsetInCU: 0x563C, offset: 0x58E33, size: 0x8, addend: 0x0, symName: _mz_zip_ntfs_to_unix_time, symObjAddr: 0x3DB8, symBinAddr: 0xCD78, symSize: 0x38 }
+  - { offsetInCU: 0x5663, offset: 0x58E5A, size: 0x8, addend: 0x0, symName: _mz_zip_unix_to_ntfs_time, symObjAddr: 0x3DF0, symBinAddr: 0xCDB0, symSize: 0x28 }
+  - { offsetInCU: 0x568A, offset: 0x58E81, size: 0x8, addend: 0x0, symName: _mz_zip_get_compression_method_string, symObjAddr: 0x3E18, symBinAddr: 0xCDD8, symSize: 0x74 }
+  - { offsetInCU: 0x26, offset: 0x58F2F, size: 0x8, addend: 0x0, symName: _mz_crypt_crc32_update, symObjAddr: 0x0, symBinAddr: 0xCE4C, symSize: 0x18 }
+  - { offsetInCU: 0x3B, offset: 0x58F44, size: 0x8, addend: 0x0, symName: _mz_crypt_crc32_update, symObjAddr: 0x0, symBinAddr: 0xCE4C, symSize: 0x18 }
+  - { offsetInCU: 0x12D, offset: 0x59036, size: 0x8, addend: 0x0, symName: _mz_crypt_pbkdf2, symObjAddr: 0x18, symBinAddr: 0xCE64, symSize: 0x274 }
+  - { offsetInCU: 0x26, offset: 0x593BF, size: 0x8, addend: 0x0, symName: _mz_stream_split_open, symObjAddr: 0x0, symBinAddr: 0xD0D8, symSize: 0xC0 }
+  - { offsetInCU: 0x4E, offset: 0x593E7, size: 0x8, addend: 0x0, symName: _mz_stream_split_vtbl, symObjAddr: 0x778, symBinAddr: 0x20738, symSize: 0x0 }
+  - { offsetInCU: 0x3DE, offset: 0x59777, size: 0x8, addend: 0x0, symName: _mz_stream_split_open, symObjAddr: 0x0, symBinAddr: 0xD0D8, symSize: 0xC0 }
+  - { offsetInCU: 0x45F, offset: 0x597F8, size: 0x8, addend: 0x0, symName: _mz_stream_split_goto_disk, symObjAddr: 0xC0, symBinAddr: 0xD198, symSize: 0x88 }
+  - { offsetInCU: 0x53A, offset: 0x598D3, size: 0x8, addend: 0x0, symName: _mz_stream_split_close_disk, symObjAddr: 0x47C, symBinAddr: 0xD554, symSize: 0x3C }
+  - { offsetInCU: 0x591, offset: 0x5992A, size: 0x8, addend: 0x0, symName: _mz_stream_split_open_disk, symObjAddr: 0x5CC, symBinAddr: 0xD6A4, symSize: 0x1AC }
+  - { offsetInCU: 0x6C3, offset: 0x59A5C, size: 0x8, addend: 0x0, symName: _mz_stream_split_is_open, symObjAddr: 0x148, symBinAddr: 0xD220, symSize: 0x14 }
+  - { offsetInCU: 0x6FE, offset: 0x59A97, size: 0x8, addend: 0x0, symName: _mz_stream_split_read, symObjAddr: 0x15C, symBinAddr: 0xD234, symSize: 0xCC }
+  - { offsetInCU: 0x7FF, offset: 0x59B98, size: 0x8, addend: 0x0, symName: _mz_stream_split_write, symObjAddr: 0x228, symBinAddr: 0xD300, symSize: 0x150 }
+  - { offsetInCU: 0x95D, offset: 0x59CF6, size: 0x8, addend: 0x0, symName: _mz_stream_split_tell, symObjAddr: 0x378, symBinAddr: 0xD450, symSize: 0x3C }
+  - { offsetInCU: 0x9D1, offset: 0x59D6A, size: 0x8, addend: 0x0, symName: _mz_stream_split_seek, symObjAddr: 0x3B4, symBinAddr: 0xD48C, symSize: 0xA4 }
+  - { offsetInCU: 0xAD8, offset: 0x59E71, size: 0x8, addend: 0x0, symName: _mz_stream_split_close, symObjAddr: 0x458, symBinAddr: 0xD530, symSize: 0x24 }
+  - { offsetInCU: 0xB50, offset: 0x59EE9, size: 0x8, addend: 0x0, symName: _mz_stream_split_error, symObjAddr: 0x4B8, symBinAddr: 0xD590, symSize: 0x8 }
+  - { offsetInCU: 0xBAE, offset: 0x59F47, size: 0x8, addend: 0x0, symName: _mz_stream_split_get_prop_int64, symObjAddr: 0x4C0, symBinAddr: 0xD598, symSize: 0x40 }
+  - { offsetInCU: 0xC0A, offset: 0x59FA3, size: 0x8, addend: 0x0, symName: _mz_stream_split_set_prop_int64, symObjAddr: 0x500, symBinAddr: 0xD5D8, symSize: 0x34 }
+  - { offsetInCU: 0xC66, offset: 0x59FFF, size: 0x8, addend: 0x0, symName: _mz_stream_split_create, symObjAddr: 0x534, symBinAddr: 0xD60C, symSize: 0x40 }
+  - { offsetInCU: 0xCA4, offset: 0x5A03D, size: 0x8, addend: 0x0, symName: _mz_stream_split_delete, symObjAddr: 0x574, symBinAddr: 0xD64C, symSize: 0x4C }
+  - { offsetInCU: 0xCDE, offset: 0x5A077, size: 0x8, addend: 0x0, symName: _mz_stream_split_get_interface, symObjAddr: 0x5C0, symBinAddr: 0xD698, symSize: 0xC }
+  - { offsetInCU: 0x26, offset: 0x5A120, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_open, symObjAddr: 0x0, symBinAddr: 0xD850, symSize: 0x290 }
+  - { offsetInCU: 0x40, offset: 0x5A13A, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_vtbl, symObjAddr: 0x648, symBinAddr: 0x20798, symSize: 0x0 }
+  - { offsetInCU: 0x43B, offset: 0x5A535, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_open, symObjAddr: 0x0, symBinAddr: 0xD850, symSize: 0x290 }
+  - { offsetInCU: 0x75A, offset: 0x5A854, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_update_keys, symObjAddr: 0x290, symBinAddr: 0xDAE0, symSize: 0x88 }
+  - { offsetInCU: 0x854, offset: 0x5A94E, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_is_open, symObjAddr: 0x318, symBinAddr: 0xDB68, symSize: 0x14 }
+  - { offsetInCU: 0x88F, offset: 0x5A989, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_read, symObjAddr: 0x32C, symBinAddr: 0xDB7C, symSize: 0xB0 }
+  - { offsetInCU: 0x987, offset: 0x5AA81, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_write, symObjAddr: 0x3DC, symBinAddr: 0xDC2C, symSize: 0xF4 }
+  - { offsetInCU: 0xAA5, offset: 0x5AB9F, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_tell, symObjAddr: 0x4D0, symBinAddr: 0xDD20, symSize: 0x8 }
+  - { offsetInCU: 0xB00, offset: 0x5ABFA, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_seek, symObjAddr: 0x4D8, symBinAddr: 0xDD28, symSize: 0x8 }
+  - { offsetInCU: 0xB92, offset: 0x5AC8C, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_close, symObjAddr: 0x4E0, symBinAddr: 0xDD30, symSize: 0xC }
+  - { offsetInCU: 0xBCD, offset: 0x5ACC7, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_error, symObjAddr: 0x4EC, symBinAddr: 0xDD3C, symSize: 0x8 }
+  - { offsetInCU: 0xC08, offset: 0x5AD02, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_set_password, symObjAddr: 0x4F4, symBinAddr: 0xDD44, symSize: 0x10 }
+  - { offsetInCU: 0xC4D, offset: 0x5AD47, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_set_verify, symObjAddr: 0x504, symBinAddr: 0xDD54, symSize: 0x10 }
+  - { offsetInCU: 0xC9F, offset: 0x5AD99, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_get_verify, symObjAddr: 0x514, symBinAddr: 0xDD64, symSize: 0x18 }
+  - { offsetInCU: 0xCF1, offset: 0x5ADEB, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_get_prop_int64, symObjAddr: 0x52C, symBinAddr: 0xDD7C, symSize: 0x60 }
+  - { offsetInCU: 0xD4D, offset: 0x5AE47, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_set_prop_int64, symObjAddr: 0x58C, symBinAddr: 0xDDDC, symSize: 0x28 }
+  - { offsetInCU: 0xDA9, offset: 0x5AEA3, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_create, symObjAddr: 0x5B4, symBinAddr: 0xDE04, symSize: 0x44 }
+  - { offsetInCU: 0xDE7, offset: 0x5AEE1, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_delete, symObjAddr: 0x5F8, symBinAddr: 0xDE48, symSize: 0x30 }
+  - { offsetInCU: 0xE21, offset: 0x5AF1B, size: 0x8, addend: 0x0, symName: _mz_stream_pkcrypt_get_interface, symObjAddr: 0x628, symBinAddr: 0xDE78, symSize: 0xC }
+  - { offsetInCU: 0x26, offset: 0x5AF6F, size: 0x8, addend: 0x0, symName: _mz_stream_open, symObjAddr: 0x0, symBinAddr: 0xDE84, symSize: 0x20 }
+  - { offsetInCU: 0x41, offset: 0x5AF8A, size: 0x8, addend: 0x0, symName: _mz_stream_raw_vtbl, symObjAddr: 0xF30, symBinAddr: 0x207F8, symSize: 0x0 }
+  - { offsetInCU: 0x350, offset: 0x5B299, size: 0x8, addend: 0x0, symName: _mz_stream_open, symObjAddr: 0x0, symBinAddr: 0xDE84, symSize: 0x20 }
+  - { offsetInCU: 0x3B3, offset: 0x5B2FC, size: 0x8, addend: 0x0, symName: _mz_stream_is_open, symObjAddr: 0x20, symBinAddr: 0xDEA4, symSize: 0x20 }
+  - { offsetInCU: 0x40E, offset: 0x5B357, size: 0x8, addend: 0x0, symName: _mz_stream_read, symObjAddr: 0x40, symBinAddr: 0xDEC4, symSize: 0x84 }
+  - { offsetInCU: 0x4C5, offset: 0x5B40E, size: 0x8, addend: 0x0, symName: _mz_stream_read_uint8, symObjAddr: 0xC4, symBinAddr: 0xDF48, symSize: 0x44 }
+  - { offsetInCU: 0x544, offset: 0x5B48D, size: 0x8, addend: 0x0, symName: _mz_stream_read_value, symObjAddr: 0x108, symBinAddr: 0xDF8C, symSize: 0xE8 }
+  - { offsetInCU: 0x647, offset: 0x5B590, size: 0x8, addend: 0x0, symName: _mz_stream_read_uint16, symObjAddr: 0x1F0, symBinAddr: 0xE074, symSize: 0x44 }
+  - { offsetInCU: 0x6C6, offset: 0x5B60F, size: 0x8, addend: 0x0, symName: _mz_stream_read_uint32, symObjAddr: 0x234, symBinAddr: 0xE0B8, symSize: 0x44 }
+  - { offsetInCU: 0x745, offset: 0x5B68E, size: 0x8, addend: 0x0, symName: _mz_stream_read_int64, symObjAddr: 0x278, symBinAddr: 0xE0FC, symSize: 0x8 }
+  - { offsetInCU: 0x7A1, offset: 0x5B6EA, size: 0x8, addend: 0x0, symName: _mz_stream_read_uint64, symObjAddr: 0x280, symBinAddr: 0xE104, symSize: 0x8 }
+  - { offsetInCU: 0x7FD, offset: 0x5B746, size: 0x8, addend: 0x0, symName: _mz_stream_write, symObjAddr: 0x288, symBinAddr: 0xE10C, symSize: 0x90 }
+  - { offsetInCU: 0x8B4, offset: 0x5B7FD, size: 0x8, addend: 0x0, symName: _mz_stream_write_uint8, symObjAddr: 0x318, symBinAddr: 0xE19C, symSize: 0xC }
+  - { offsetInCU: 0x912, offset: 0x5B85B, size: 0x8, addend: 0x0, symName: _mz_stream_write_value, symObjAddr: 0x324, symBinAddr: 0xE1A8, symSize: 0xAC }
+  - { offsetInCU: 0x9A0, offset: 0x5B8E9, size: 0x8, addend: 0x0, symName: _mz_stream_write_uint16, symObjAddr: 0x3D0, symBinAddr: 0xE254, symSize: 0xC }
+  - { offsetInCU: 0x9FE, offset: 0x5B947, size: 0x8, addend: 0x0, symName: _mz_stream_write_uint32, symObjAddr: 0x3DC, symBinAddr: 0xE260, symSize: 0xC }
+  - { offsetInCU: 0xA5C, offset: 0x5B9A5, size: 0x8, addend: 0x0, symName: _mz_stream_write_int64, symObjAddr: 0x3E8, symBinAddr: 0xE26C, symSize: 0x8 }
+  - { offsetInCU: 0xAB8, offset: 0x5BA01, size: 0x8, addend: 0x0, symName: _mz_stream_write_uint64, symObjAddr: 0x3F0, symBinAddr: 0xE274, symSize: 0x8 }
+  - { offsetInCU: 0xBA2, offset: 0x5BAEB, size: 0x8, addend: 0x0, symName: _mz_stream_copy, symObjAddr: 0x3F8, symBinAddr: 0xE27C, symSize: 0xDC }
+  - { offsetInCU: 0xC89, offset: 0x5BBD2, size: 0x8, addend: 0x0, symName: _mz_stream_copy_stream, symObjAddr: 0x4D4, symBinAddr: 0xE358, symSize: 0x104 }
+  - { offsetInCU: 0xD34, offset: 0x5BC7D, size: 0x8, addend: 0x0, symName: _mz_stream_copy_to_end, symObjAddr: 0x5D8, symBinAddr: 0xE45C, symSize: 0x10 }
+  - { offsetInCU: 0xD98, offset: 0x5BCE1, size: 0x8, addend: 0x0, symName: _mz_stream_copy_stream_to_end, symObjAddr: 0x5E8, symBinAddr: 0xE46C, symSize: 0xFC }
+  - { offsetInCU: 0xE85, offset: 0x5BDCE, size: 0x8, addend: 0x0, symName: _mz_stream_tell, symObjAddr: 0x6E4, symBinAddr: 0xE568, symSize: 0x68 }
+  - { offsetInCU: 0xF0E, offset: 0x5BE57, size: 0x8, addend: 0x0, symName: _mz_stream_seek, symObjAddr: 0x74C, symBinAddr: 0xE5D0, symSize: 0x94 }
+  - { offsetInCU: 0xFC5, offset: 0x5BF0E, size: 0x8, addend: 0x0, symName: _mz_stream_find, symObjAddr: 0x7E0, symBinAddr: 0xE664, symSize: 0x1E8 }
+  - { offsetInCU: 0x1134, offset: 0x5C07D, size: 0x8, addend: 0x0, symName: _mz_stream_find_reverse, symObjAddr: 0x9C8, symBinAddr: 0xE84C, symSize: 0x25C }
+  - { offsetInCU: 0x12D8, offset: 0x5C221, size: 0x8, addend: 0x0, symName: _mz_stream_close, symObjAddr: 0xC24, symBinAddr: 0xEAA8, symSize: 0x68 }
+  - { offsetInCU: 0x1365, offset: 0x5C2AE, size: 0x8, addend: 0x0, symName: _mz_stream_error, symObjAddr: 0xC8C, symBinAddr: 0xEB10, symSize: 0x20 }
+  - { offsetInCU: 0x139A, offset: 0x5C2E3, size: 0x8, addend: 0x0, symName: _mz_stream_set_base, symObjAddr: 0xCAC, symBinAddr: 0xEB30, symSize: 0xC }
+  - { offsetInCU: 0x13E7, offset: 0x5C330, size: 0x8, addend: 0x0, symName: _mz_stream_get_interface, symObjAddr: 0xCB8, symBinAddr: 0xEB3C, symSize: 0xC }
+  - { offsetInCU: 0x1425, offset: 0x5C36E, size: 0x8, addend: 0x0, symName: _mz_stream_get_prop_int64, symObjAddr: 0xCC4, symBinAddr: 0xEB48, symSize: 0x20 }
+  - { offsetInCU: 0x148D, offset: 0x5C3D6, size: 0x8, addend: 0x0, symName: _mz_stream_set_prop_int64, symObjAddr: 0xCE4, symBinAddr: 0xEB68, symSize: 0x20 }
+  - { offsetInCU: 0x14F5, offset: 0x5C43E, size: 0x8, addend: 0x0, symName: _mz_stream_create, symObjAddr: 0xD04, symBinAddr: 0xEB88, symSize: 0x1C }
+  - { offsetInCU: 0x153F, offset: 0x5C488, size: 0x8, addend: 0x0, symName: _mz_stream_delete, symObjAddr: 0xD20, symBinAddr: 0xEBA4, symSize: 0x44 }
+  - { offsetInCU: 0x158D, offset: 0x5C4D6, size: 0x8, addend: 0x0, symName: _mz_stream_raw_open, symObjAddr: 0xD64, symBinAddr: 0xEBE8, symSize: 0x8 }
+  - { offsetInCU: 0x15D0, offset: 0x5C519, size: 0x8, addend: 0x0, symName: _mz_stream_raw_is_open, symObjAddr: 0xD6C, symBinAddr: 0xEBF0, symSize: 0x24 }
+  - { offsetInCU: 0x1641, offset: 0x5C58A, size: 0x8, addend: 0x0, symName: _mz_stream_raw_read, symObjAddr: 0xD90, symBinAddr: 0xEC14, symSize: 0x5C }
+  - { offsetInCU: 0x16D1, offset: 0x5C61A, size: 0x8, addend: 0x0, symName: _mz_stream_raw_write, symObjAddr: 0xDEC, symBinAddr: 0xEC70, symSize: 0x40 }
+  - { offsetInCU: 0x1761, offset: 0x5C6AA, size: 0x8, addend: 0x0, symName: _mz_stream_raw_tell, symObjAddr: 0xE2C, symBinAddr: 0xECB0, symSize: 0x8 }
+  - { offsetInCU: 0x17AD, offset: 0x5C6F6, size: 0x8, addend: 0x0, symName: _mz_stream_raw_seek, symObjAddr: 0xE34, symBinAddr: 0xECB8, symSize: 0x8 }
+  - { offsetInCU: 0x1828, offset: 0x5C771, size: 0x8, addend: 0x0, symName: _mz_stream_raw_close, symObjAddr: 0xE3C, symBinAddr: 0xECC0, symSize: 0x8 }
+  - { offsetInCU: 0x1851, offset: 0x5C79A, size: 0x8, addend: 0x0, symName: _mz_stream_raw_error, symObjAddr: 0xE44, symBinAddr: 0xECC8, symSize: 0x24 }
+  - { offsetInCU: 0x18C2, offset: 0x5C80B, size: 0x8, addend: 0x0, symName: _mz_stream_raw_get_prop_int64, symObjAddr: 0xE68, symBinAddr: 0xECEC, symSize: 0x34 }
+  - { offsetInCU: 0x191E, offset: 0x5C867, size: 0x8, addend: 0x0, symName: _mz_stream_raw_set_prop_int64, symObjAddr: 0xE9C, symBinAddr: 0xED20, symSize: 0x20 }
+  - { offsetInCU: 0x197A, offset: 0x5C8C3, size: 0x8, addend: 0x0, symName: _mz_stream_raw_create, symObjAddr: 0xEBC, symBinAddr: 0xED40, symSize: 0x40 }
+  - { offsetInCU: 0x19B8, offset: 0x5C901, size: 0x8, addend: 0x0, symName: _mz_stream_raw_delete, symObjAddr: 0xEFC, symBinAddr: 0xED80, symSize: 0x30 }
+  - { offsetInCU: 0x26, offset: 0x5C989, size: 0x8, addend: 0x0, symName: _fill_fopen_filefunc, symObjAddr: 0x0, symBinAddr: 0xEDB0, symSize: 0x14 }
+  - { offsetInCU: 0x4E, offset: 0x5C9B1, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_vtbl, symObjAddr: 0x18E8, symBinAddr: 0x20858, symSize: 0x0 }
+  - { offsetInCU: 0x624, offset: 0x5CF87, size: 0x8, addend: 0x0, symName: _fill_fopen_filefunc, symObjAddr: 0x0, symBinAddr: 0xEDB0, symSize: 0x14 }
+  - { offsetInCU: 0x64B, offset: 0x5CFAE, size: 0x8, addend: 0x0, symName: _fill_fopen64_filefunc, symObjAddr: 0x14, symBinAddr: 0xEDC4, symSize: 0x14 }
+  - { offsetInCU: 0x672, offset: 0x5CFD5, size: 0x8, addend: 0x0, symName: _fill_win32_filefunc, symObjAddr: 0x28, symBinAddr: 0xEDD8, symSize: 0x14 }
+  - { offsetInCU: 0x699, offset: 0x5CFFC, size: 0x8, addend: 0x0, symName: _fill_win32_filefunc64, symObjAddr: 0x3C, symBinAddr: 0xEDEC, symSize: 0x14 }
+  - { offsetInCU: 0x6C0, offset: 0x5D023, size: 0x8, addend: 0x0, symName: _fill_win32_filefunc64A, symObjAddr: 0x50, symBinAddr: 0xEE00, symSize: 0x14 }
+  - { offsetInCU: 0x6E7, offset: 0x5D04A, size: 0x8, addend: 0x0, symName: _fill_memory_filefunc, symObjAddr: 0x64, symBinAddr: 0xEE14, symSize: 0x34 }
+  - { offsetInCU: 0x72A, offset: 0x5D08D, size: 0x8, addend: 0x0, symName: _zipOpen, symObjAddr: 0x98, symBinAddr: 0xEE48, symSize: 0xC }
+  - { offsetInCU: 0x78F, offset: 0x5D0F2, size: 0x8, addend: 0x0, symName: _zipOpen2, symObjAddr: 0xA4, symBinAddr: 0xEE54, symSize: 0x108 }
+  - { offsetInCU: 0x9F7, offset: 0x5D35A, size: 0x8, addend: 0x0, symName: _zipOpen_MZ, symObjAddr: 0x1F8, symBinAddr: 0xEFA8, symSize: 0xA4 }
+  - { offsetInCU: 0xB0F, offset: 0x5D472, size: 0x8, addend: 0x0, symName: _zipOpen64, symObjAddr: 0x1AC, symBinAddr: 0xEF5C, symSize: 0xC }
+  - { offsetInCU: 0xB74, offset: 0x5D4D7, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_create, symObjAddr: 0x1B8, symBinAddr: 0xEF68, symSize: 0x40 }
+  - { offsetInCU: 0xC2C, offset: 0x5D58F, size: 0x8, addend: 0x0, symName: _zipOpen2_64, symObjAddr: 0x29C, symBinAddr: 0xF04C, symSize: 0x108 }
+  - { offsetInCU: 0xDBB, offset: 0x5D71E, size: 0x8, addend: 0x0, symName: _zipGetHandle_MZ, symObjAddr: 0x3A4, symBinAddr: 0xF154, symSize: 0xC }
+  - { offsetInCU: 0xDF9, offset: 0x5D75C, size: 0x8, addend: 0x0, symName: _zipGetStream_MZ, symObjAddr: 0x3B0, symBinAddr: 0xF160, symSize: 0xC }
+  - { offsetInCU: 0xE37, offset: 0x5D79A, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip5, symObjAddr: 0x3BC, symBinAddr: 0xF16C, symSize: 0x13C }
+  - { offsetInCU: 0x11B5, offset: 0x5DB18, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip4_64, symObjAddr: 0x4F8, symBinAddr: 0xF2A8, symSize: 0x4C }
+  - { offsetInCU: 0x1414, offset: 0x5DD77, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip4, symObjAddr: 0x544, symBinAddr: 0xF2F4, symSize: 0x48 }
+  - { offsetInCU: 0x1745, offset: 0x5E0A8, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip3, symObjAddr: 0x58C, symBinAddr: 0xF33C, symSize: 0x48 }
+  - { offsetInCU: 0x1A0D, offset: 0x5E370, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip3_64, symObjAddr: 0x5D4, symBinAddr: 0xF384, symSize: 0x4C }
+  - { offsetInCU: 0x1BC1, offset: 0x5E524, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip2, symObjAddr: 0x620, symBinAddr: 0xF3D0, symSize: 0x44 }
+  - { offsetInCU: 0x1E25, offset: 0x5E788, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip2_64, symObjAddr: 0x664, symBinAddr: 0xF414, symSize: 0x44 }
+  - { offsetInCU: 0x218B, offset: 0x5EAEE, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip, symObjAddr: 0x6A8, symBinAddr: 0xF458, symSize: 0x40 }
+  - { offsetInCU: 0x24C6, offset: 0x5EE29, size: 0x8, addend: 0x0, symName: _zipOpenNewFileInZip_64, symObjAddr: 0x6E8, symBinAddr: 0xF498, symSize: 0x44 }
+  - { offsetInCU: 0x2751, offset: 0x5F0B4, size: 0x8, addend: 0x0, symName: _zipWriteInFileInZip, symObjAddr: 0x72C, symBinAddr: 0xF4DC, symSize: 0x50 }
+  - { offsetInCU: 0x2837, offset: 0x5F19A, size: 0x8, addend: 0x0, symName: _zipCloseFileInZipRaw, symObjAddr: 0x77C, symBinAddr: 0xF52C, symSize: 0x14 }
+  - { offsetInCU: 0x2885, offset: 0x5F1E8, size: 0x8, addend: 0x0, symName: _zipCloseFileInZipRaw, symObjAddr: 0x77C, symBinAddr: 0xF52C, symSize: 0x14 }
+  - { offsetInCU: 0x28E7, offset: 0x5F24A, size: 0x8, addend: 0x0, symName: _zipCloseFileInZipRaw64, symObjAddr: 0x790, symBinAddr: 0xF540, symSize: 0x14 }
+  - { offsetInCU: 0x2957, offset: 0x5F2BA, size: 0x8, addend: 0x0, symName: _zipCloseFileInZip, symObjAddr: 0x7A4, symBinAddr: 0xF554, symSize: 0x14 }
+  - { offsetInCU: 0x2987, offset: 0x5F2EA, size: 0x8, addend: 0x0, symName: _zipCloseFileInZip, symObjAddr: 0x7A4, symBinAddr: 0xF554, symSize: 0x14 }
+  - { offsetInCU: 0x29CF, offset: 0x5F332, size: 0x8, addend: 0x0, symName: _zipCloseFileInZip64, symObjAddr: 0x7B8, symBinAddr: 0xF568, symSize: 0x14 }
+  - { offsetInCU: 0x2A2F, offset: 0x5F392, size: 0x8, addend: 0x0, symName: _zipClose, symObjAddr: 0x7CC, symBinAddr: 0xF57C, symSize: 0x8 }
+  - { offsetInCU: 0x2A6C, offset: 0x5F3CF, size: 0x8, addend: 0x0, symName: _zipClose, symObjAddr: 0x7CC, symBinAddr: 0xF57C, symSize: 0x8 }
+  - { offsetInCU: 0x2AB7, offset: 0x5F41A, size: 0x8, addend: 0x0, symName: _zipClose2_64, symObjAddr: 0x7DC, symBinAddr: 0xF58C, symSize: 0x58 }
+  - { offsetInCU: 0x2B62, offset: 0x5F4C5, size: 0x8, addend: 0x0, symName: _zipClose_64, symObjAddr: 0x7D4, symBinAddr: 0xF584, symSize: 0x8 }
+  - { offsetInCU: 0x2BAE, offset: 0x5F511, size: 0x8, addend: 0x0, symName: _zipClose2_MZ, symObjAddr: 0x834, symBinAddr: 0xF5E4, symSize: 0x60 }
+  - { offsetInCU: 0x2CB9, offset: 0x5F61C, size: 0x8, addend: 0x0, symName: _zipClose_MZ, symObjAddr: 0x894, symBinAddr: 0xF644, symSize: 0x8 }
+  - { offsetInCU: 0x2D36, offset: 0x5F699, size: 0x8, addend: 0x0, symName: _unzOpen, symObjAddr: 0x89C, symBinAddr: 0xF64C, symSize: 0x8 }
+  - { offsetInCU: 0x2D64, offset: 0x5F6C7, size: 0x8, addend: 0x0, symName: _unzOpen, symObjAddr: 0x89C, symBinAddr: 0xF64C, symSize: 0x8 }
+  - { offsetInCU: 0x2D9D, offset: 0x5F700, size: 0x8, addend: 0x0, symName: _unzOpen2, symObjAddr: 0x8AC, symBinAddr: 0xF65C, symSize: 0xD8 }
+  - { offsetInCU: 0x2ED1, offset: 0x5F834, size: 0x8, addend: 0x0, symName: _unzOpen64, symObjAddr: 0x8A4, symBinAddr: 0xF654, symSize: 0x8 }
+  - { offsetInCU: 0x2F0B, offset: 0x5F86E, size: 0x8, addend: 0x0, symName: _unzOpen_MZ, symObjAddr: 0x984, symBinAddr: 0xF734, symSize: 0x84 }
+  - { offsetInCU: 0x2FE9, offset: 0x5F94C, size: 0x8, addend: 0x0, symName: _unzOpen2_64, symObjAddr: 0xA08, symBinAddr: 0xF7B8, symSize: 0xD8 }
+  - { offsetInCU: 0x311D, offset: 0x5FA80, size: 0x8, addend: 0x0, symName: _unzGetHandle_MZ, symObjAddr: 0xAE0, symBinAddr: 0xF890, symSize: 0xC }
+  - { offsetInCU: 0x315B, offset: 0x5FABE, size: 0x8, addend: 0x0, symName: _unzGetStream_MZ, symObjAddr: 0xAEC, symBinAddr: 0xF89C, symSize: 0xC }
+  - { offsetInCU: 0x31CF, offset: 0x5FB32, size: 0x8, addend: 0x0, symName: _unzClose, symObjAddr: 0xAF8, symBinAddr: 0xF8A8, symSize: 0x74 }
+  - { offsetInCU: 0x3297, offset: 0x5FBFA, size: 0x8, addend: 0x0, symName: _unzClose_MZ, symObjAddr: 0xB6C, symBinAddr: 0xF91C, symSize: 0x40 }
+  - { offsetInCU: 0x32EE, offset: 0x5FC51, size: 0x8, addend: 0x0, symName: _unzGetGlobalInfo, symObjAddr: 0xBAC, symBinAddr: 0xF95C, symSize: 0x58 }
+  - { offsetInCU: 0x3374, offset: 0x5FCD7, size: 0x8, addend: 0x0, symName: _unzGetGlobalInfo64, symObjAddr: 0xC04, symBinAddr: 0xF9B4, symSize: 0x7C }
+  - { offsetInCU: 0x345F, offset: 0x5FDC2, size: 0x8, addend: 0x0, symName: _unzGetGlobalComment, symObjAddr: 0xC80, symBinAddr: 0xFA30, symSize: 0x68 }
+  - { offsetInCU: 0x3529, offset: 0x5FE8C, size: 0x8, addend: 0x0, symName: _unzOpenCurrentFile3, symObjAddr: 0xCE8, symBinAddr: 0xFA98, symSize: 0x11C }
+  - { offsetInCU: 0x36F3, offset: 0x60056, size: 0x8, addend: 0x0, symName: _unzCloseCurrentFile, symObjAddr: 0xE04, symBinAddr: 0xFBB4, symSize: 0x14 }
+  - { offsetInCU: 0x3731, offset: 0x60094, size: 0x8, addend: 0x0, symName: _unzOpenCurrentFile, symObjAddr: 0xE18, symBinAddr: 0xFBC8, symSize: 0x14 }
+  - { offsetInCU: 0x378B, offset: 0x600EE, size: 0x8, addend: 0x0, symName: _unzOpenCurrentFilePassword, symObjAddr: 0xE2C, symBinAddr: 0xFBDC, symSize: 0x14 }
+  - { offsetInCU: 0x37F8, offset: 0x6015B, size: 0x8, addend: 0x0, symName: _unzOpenCurrentFile2, symObjAddr: 0xE40, symBinAddr: 0xFBF0, symSize: 0x8 }
+  - { offsetInCU: 0x3885, offset: 0x601E8, size: 0x8, addend: 0x0, symName: _unzReadCurrentFile, symObjAddr: 0xE48, symBinAddr: 0xFBF8, symSize: 0x4C }
+  - { offsetInCU: 0x3920, offset: 0x60283, size: 0x8, addend: 0x0, symName: _unzGetCurrentFileInfo, symObjAddr: 0xE94, symBinAddr: 0xFC44, symSize: 0x180 }
+  - { offsetInCU: 0x3A3E, offset: 0x603A1, size: 0x8, addend: 0x0, symName: _unzGetCurrentFileInfo64, symObjAddr: 0x1014, symBinAddr: 0xFDC4, symSize: 0x17C }
+  - { offsetInCU: 0x3B4A, offset: 0x604AD, size: 0x8, addend: 0x0, symName: _unzGoToFirstFile, symObjAddr: 0x1190, symBinAddr: 0xFF40, symSize: 0x18 }
+  - { offsetInCU: 0x3B96, offset: 0x604F9, size: 0x8, addend: 0x0, symName: _unzGoToNextFile, symObjAddr: 0x11A8, symBinAddr: 0xFF58, symSize: 0x44 }
+  - { offsetInCU: 0x3C05, offset: 0x60568, size: 0x8, addend: 0x0, symName: _unzLocateFile, symObjAddr: 0x11EC, symBinAddr: 0xFF9C, symSize: 0xBC }
+  - { offsetInCU: 0x3DEC, offset: 0x6074F, size: 0x8, addend: 0x0, symName: _unzGetFilePos, symObjAddr: 0x12A8, symBinAddr: 0x10058, symSize: 0x54 }
+  - { offsetInCU: 0x3EC8, offset: 0x6082B, size: 0x8, addend: 0x0, symName: _unzGetFilePos64, symObjAddr: 0x12FC, symBinAddr: 0x100AC, symSize: 0x44 }
+  - { offsetInCU: 0x3F87, offset: 0x608EA, size: 0x8, addend: 0x0, symName: _unzGoToFilePos, symObjAddr: 0x1340, symBinAddr: 0x100F0, symSize: 0x40 }
+  - { offsetInCU: 0x403D, offset: 0x609A0, size: 0x8, addend: 0x0, symName: _unzGoToFilePos64, symObjAddr: 0x1380, symBinAddr: 0x10130, symSize: 0x44 }
+  - { offsetInCU: 0x4088, offset: 0x609EB, size: 0x8, addend: 0x0, symName: _unzGetOffset64, symObjAddr: 0x13C4, symBinAddr: 0x10174, symSize: 0x14 }
+  - { offsetInCU: 0x40BF, offset: 0x60A22, size: 0x8, addend: 0x0, symName: _unzGetOffset, symObjAddr: 0x13D8, symBinAddr: 0x10188, symSize: 0x28 }
+  - { offsetInCU: 0x40EF, offset: 0x60A52, size: 0x8, addend: 0x0, symName: _unzGetOffset, symObjAddr: 0x13D8, symBinAddr: 0x10188, symSize: 0x28 }
+  - { offsetInCU: 0x415B, offset: 0x60ABE, size: 0x8, addend: 0x0, symName: _unzSetOffset, symObjAddr: 0x1400, symBinAddr: 0x101B0, symSize: 0x14 }
+  - { offsetInCU: 0x419A, offset: 0x60AFD, size: 0x8, addend: 0x0, symName: _unzSetOffset, symObjAddr: 0x1400, symBinAddr: 0x101B0, symSize: 0x14 }
+  - { offsetInCU: 0x41D8, offset: 0x60B3B, size: 0x8, addend: 0x0, symName: _unzSetOffset64, symObjAddr: 0x1414, symBinAddr: 0x101C4, symSize: 0x14 }
+  - { offsetInCU: 0x4217, offset: 0x60B7A, size: 0x8, addend: 0x0, symName: _unzGetLocalExtrafield, symObjAddr: 0x1428, symBinAddr: 0x101D8, symSize: 0x78 }
+  - { offsetInCU: 0x431C, offset: 0x60C7F, size: 0x8, addend: 0x0, symName: _unzTell, symObjAddr: 0x14A0, symBinAddr: 0x10250, symSize: 0x14 }
+  - { offsetInCU: 0x434C, offset: 0x60CAF, size: 0x8, addend: 0x0, symName: _unzTell, symObjAddr: 0x14A0, symBinAddr: 0x10250, symSize: 0x14 }
+  - { offsetInCU: 0x436A, offset: 0x60CCD, size: 0x8, addend: 0x0, symName: _unzTell, symObjAddr: 0x14A0, symBinAddr: 0x10250, symSize: 0x14 }
+  - { offsetInCU: 0x438F, offset: 0x60CF2, size: 0x8, addend: 0x0, symName: _unztell, symObjAddr: 0x14B4, symBinAddr: 0x10264, symSize: 0x14 }
+  - { offsetInCU: 0x43B1, offset: 0x60D14, size: 0x8, addend: 0x0, symName: _unztell, symObjAddr: 0x14B4, symBinAddr: 0x10264, symSize: 0x14 }
+  - { offsetInCU: 0x43D5, offset: 0x60D38, size: 0x8, addend: 0x0, symName: _unztell64, symObjAddr: 0x14C8, symBinAddr: 0x10278, symSize: 0x14 }
+  - { offsetInCU: 0x43FE, offset: 0x60D61, size: 0x8, addend: 0x0, symName: _unzTell64, symObjAddr: 0x14DC, symBinAddr: 0x1028C, symSize: 0x14 }
+  - { offsetInCU: 0x442E, offset: 0x60D91, size: 0x8, addend: 0x0, symName: _unzTell64, symObjAddr: 0x14DC, symBinAddr: 0x1028C, symSize: 0x14 }
+  - { offsetInCU: 0x4452, offset: 0x60DB5, size: 0x8, addend: 0x0, symName: _unzSeek, symObjAddr: 0x14F0, symBinAddr: 0x102A0, symSize: 0x8 }
+  - { offsetInCU: 0x44BC, offset: 0x60E1F, size: 0x8, addend: 0x0, symName: _unzSeek64, symObjAddr: 0x14F8, symBinAddr: 0x102A8, symSize: 0xC8 }
+  - { offsetInCU: 0x45BD, offset: 0x60F20, size: 0x8, addend: 0x0, symName: _unzEndOfFile, symObjAddr: 0x15C0, symBinAddr: 0x10370, symSize: 0x4 }
+  - { offsetInCU: 0x45EB, offset: 0x60F4E, size: 0x8, addend: 0x0, symName: _unzEndOfFile, symObjAddr: 0x15C0, symBinAddr: 0x10370, symSize: 0x4 }
+  - { offsetInCU: 0x45FF, offset: 0x60F62, size: 0x8, addend: 0x0, symName: _unzeof, symObjAddr: 0x15C4, symBinAddr: 0x10374, symSize: 0x58 }
+  - { offsetInCU: 0x4675, offset: 0x60FD8, size: 0x8, addend: 0x0, symName: _unzGetStream, symObjAddr: 0x161C, symBinAddr: 0x103CC, symSize: 0xC }
+  - { offsetInCU: 0x46B3, offset: 0x61016, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_open, symObjAddr: 0x1628, symBinAddr: 0x103D8, symSize: 0x84 }
+  - { offsetInCU: 0x472A, offset: 0x6108D, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_is_open, symObjAddr: 0x16AC, symBinAddr: 0x1045C, symSize: 0x14 }
+  - { offsetInCU: 0x4779, offset: 0x610DC, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_read, symObjAddr: 0x16C0, symBinAddr: 0x10470, symSize: 0x58 }
+  - { offsetInCU: 0x4826, offset: 0x61189, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_write, symObjAddr: 0x1718, symBinAddr: 0x104C8, symSize: 0x58 }
+  - { offsetInCU: 0x48E3, offset: 0x61246, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_tell, symObjAddr: 0x1770, symBinAddr: 0x10520, symSize: 0x3C }
+  - { offsetInCU: 0x4921, offset: 0x61284, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_tell, symObjAddr: 0x1770, symBinAddr: 0x10520, symSize: 0x3C }
+  - { offsetInCU: 0x4950, offset: 0x612B3, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_seek, symObjAddr: 0x17AC, symBinAddr: 0x1055C, symSize: 0x64 }
+  - { offsetInCU: 0x49DD, offset: 0x61340, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_close, symObjAddr: 0x1810, symBinAddr: 0x105C0, symSize: 0x68 }
+  - { offsetInCU: 0x4A6A, offset: 0x613CD, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_error, symObjAddr: 0x1878, symBinAddr: 0x10628, symSize: 0x3C }
+  - { offsetInCU: 0x4AC8, offset: 0x6142B, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_error, symObjAddr: 0x1878, symBinAddr: 0x10628, symSize: 0x3C }
+  - { offsetInCU: 0x4AF7, offset: 0x6145A, size: 0x8, addend: 0x0, symName: _mz_stream_ioapi_delete, symObjAddr: 0x18B4, symBinAddr: 0x10664, symSize: 0x30 }
+  - { offsetInCU: 0x26, offset: 0x6175B, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_open, symObjAddr: 0x0, symBinAddr: 0x10694, symSize: 0xD0 }
+  - { offsetInCU: 0x4E, offset: 0x61783, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_vtbl, symObjAddr: 0x510, symBinAddr: 0x208B8, symSize: 0x0 }
+  - { offsetInCU: 0x3D6, offset: 0x61B0B, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_open, symObjAddr: 0x0, symBinAddr: 0x10694, symSize: 0xD0 }
+  - { offsetInCU: 0x4C3, offset: 0x61BF8, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_is_open, symObjAddr: 0xD0, symBinAddr: 0x10764, symSize: 0x18 }
+  - { offsetInCU: 0x4FE, offset: 0x61C33, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_read, symObjAddr: 0xE8, symBinAddr: 0x1077C, symSize: 0x114 }
+  - { offsetInCU: 0x676, offset: 0x61DAB, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_write, symObjAddr: 0x1FC, symBinAddr: 0x10890, symSize: 0x48 }
+  - { offsetInCU: 0x700, offset: 0x61E35, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_deflate, symObjAddr: 0x244, symBinAddr: 0x108D8, symSize: 0xE4 }
+  - { offsetInCU: 0x83E, offset: 0x61F73, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_tell, symObjAddr: 0x328, symBinAddr: 0x109BC, symSize: 0x8 }
+  - { offsetInCU: 0x867, offset: 0x61F9C, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_seek, symObjAddr: 0x330, symBinAddr: 0x109C4, symSize: 0x8 }
+  - { offsetInCU: 0x8AA, offset: 0x61FDF, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_close, symObjAddr: 0x338, symBinAddr: 0x109CC, symSize: 0x74 }
+  - { offsetInCU: 0x994, offset: 0x620C9, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_error, symObjAddr: 0x3AC, symBinAddr: 0x10A40, symSize: 0xC }
+  - { offsetInCU: 0x9D2, offset: 0x62107, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_get_prop_int64, symObjAddr: 0x3B8, symBinAddr: 0x10A4C, symSize: 0x60 }
+  - { offsetInCU: 0xA2E, offset: 0x62163, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_set_prop_int64, symObjAddr: 0x418, symBinAddr: 0x10AAC, symSize: 0x4C }
+  - { offsetInCU: 0xA86, offset: 0x621BB, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_create, symObjAddr: 0x464, symBinAddr: 0x10AF8, symSize: 0x58 }
+  - { offsetInCU: 0xAC4, offset: 0x621F9, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_delete, symObjAddr: 0x4BC, symBinAddr: 0x10B50, symSize: 0x30 }
+  - { offsetInCU: 0xAFE, offset: 0x62233, size: 0x8, addend: 0x0, symName: _mz_stream_zlib_get_interface, symObjAddr: 0x4EC, symBinAddr: 0x10B80, symSize: 0xC }
+  - { offsetInCU: 0x26, offset: 0x6227B, size: 0x8, addend: 0x0, symName: _mz_crypt_rand, symObjAddr: 0x0, symBinAddr: 0x10B8C, symSize: 0x3C }
+  - { offsetInCU: 0x40, offset: 0x62295, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_digest_size, symObjAddr: 0x7BA, symBinAddr: 0x1A0C9, symSize: 0x0 }
+  - { offsetInCU: 0x1CA, offset: 0x6241F, size: 0x8, addend: 0x0, symName: _mz_crypt_rand, symObjAddr: 0x0, symBinAddr: 0x10B8C, symSize: 0x3C }
+  - { offsetInCU: 0x23F, offset: 0x62494, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_reset, symObjAddr: 0x3C, symBinAddr: 0x10BC8, symSize: 0x8 }
+  - { offsetInCU: 0x286, offset: 0x624DB, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_begin, symObjAddr: 0x44, symBinAddr: 0x10BD0, symSize: 0xAC }
+  - { offsetInCU: 0x3BE, offset: 0x62613, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_update, symObjAddr: 0xF0, symBinAddr: 0x10C7C, symSize: 0xC8 }
+  - { offsetInCU: 0x543, offset: 0x62798, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_end, symObjAddr: 0x1B8, symBinAddr: 0x10D44, symSize: 0xDC }
+  - { offsetInCU: 0x684, offset: 0x628D9, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_set_algorithm, symObjAddr: 0x294, symBinAddr: 0x10E20, symSize: 0x14 }
+  - { offsetInCU: 0x6C3, offset: 0x62918, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_create, symObjAddr: 0x2A8, symBinAddr: 0x10E34, symSize: 0x3C }
+  - { offsetInCU: 0x6FE, offset: 0x62953, size: 0x8, addend: 0x0, symName: _mz_crypt_sha_delete, symObjAddr: 0x2E4, symBinAddr: 0x10E70, symSize: 0x30 }
+  - { offsetInCU: 0x735, offset: 0x6298A, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_reset, symObjAddr: 0x314, symBinAddr: 0x10EA0, symSize: 0x2C }
+  - { offsetInCU: 0x77F, offset: 0x629D4, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_encrypt, symObjAddr: 0x340, symBinAddr: 0x10ECC, symSize: 0x68 }
+  - { offsetInCU: 0x83D, offset: 0x62A92, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_decrypt, symObjAddr: 0x3A8, symBinAddr: 0x10F34, symSize: 0x68 }
+  - { offsetInCU: 0x8EC, offset: 0x62B41, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_set_encrypt_key, symObjAddr: 0x410, symBinAddr: 0x10F9C, symSize: 0x7C }
+  - { offsetInCU: 0x9E6, offset: 0x62C3B, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_set_decrypt_key, symObjAddr: 0x48C, symBinAddr: 0x11018, symSize: 0x7C }
+  - { offsetInCU: 0xAAC, offset: 0x62D01, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_set_mode, symObjAddr: 0x508, symBinAddr: 0x11094, symSize: 0x8 }
+  - { offsetInCU: 0xAF1, offset: 0x62D46, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_create, symObjAddr: 0x510, symBinAddr: 0x1109C, symSize: 0x30 }
+  - { offsetInCU: 0xB2F, offset: 0x62D84, size: 0x8, addend: 0x0, symName: _mz_crypt_aes_delete, symObjAddr: 0x540, symBinAddr: 0x110CC, symSize: 0x40 }
+  - { offsetInCU: 0xBC3, offset: 0x62E18, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_reset, symObjAddr: 0x580, symBinAddr: 0x1110C, symSize: 0x3C }
+  - { offsetInCU: 0xBEB, offset: 0x62E40, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_reset, symObjAddr: 0x580, symBinAddr: 0x1110C, symSize: 0x3C }
+  - { offsetInCU: 0xC34, offset: 0x62E89, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_init, symObjAddr: 0x5BC, symBinAddr: 0x11148, symSize: 0x94 }
+  - { offsetInCU: 0xD23, offset: 0x62F78, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_update, symObjAddr: 0x650, symBinAddr: 0x111DC, symSize: 0x30 }
+  - { offsetInCU: 0xDA9, offset: 0x62FFE, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_end, symObjAddr: 0x680, symBinAddr: 0x1120C, symSize: 0x4C }
+  - { offsetInCU: 0xE2A, offset: 0x6307F, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_set_algorithm, symObjAddr: 0x6CC, symBinAddr: 0x11258, symSize: 0x8 }
+  - { offsetInCU: 0xE6F, offset: 0x630C4, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_copy, symObjAddr: 0x6D4, symBinAddr: 0x11260, symSize: 0x34 }
+  - { offsetInCU: 0xECF, offset: 0x63124, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_create, symObjAddr: 0x708, symBinAddr: 0x11294, symSize: 0x3C }
+  - { offsetInCU: 0xF0D, offset: 0x63162, size: 0x8, addend: 0x0, symName: _mz_crypt_hmac_delete, symObjAddr: 0x744, symBinAddr: 0x112D0, symSize: 0x64 }
+  - { offsetInCU: 0x26, offset: 0x631F3, size: 0x8, addend: 0x0, symName: _mz_zip_reader_is_open, symObjAddr: 0x0, symBinAddr: 0x11334, symSize: 0x1C }
+  - { offsetInCU: 0x651, offset: 0x6381E, size: 0x8, addend: 0x0, symName: _mz_zip_reader_is_open, symObjAddr: 0x0, symBinAddr: 0x11334, symSize: 0x1C }
+  - { offsetInCU: 0x67A, offset: 0x63847, size: 0x8, addend: 0x0, symName: _mz_zip_reader_open, symObjAddr: 0x1C, symBinAddr: 0x11350, symSize: 0x74 }
+  - { offsetInCU: 0x78C, offset: 0x63959, size: 0x8, addend: 0x0, symName: _mz_zip_reader_close, symObjAddr: 0x90, symBinAddr: 0x113C4, symSize: 0x94 }
+  - { offsetInCU: 0x85F, offset: 0x63A2C, size: 0x8, addend: 0x0, symName: _mz_zip_reader_unzip_cd, symObjAddr: 0x124, symBinAddr: 0x11458, symSize: 0x1A8 }
+  - { offsetInCU: 0xBA6, offset: 0x63D73, size: 0x8, addend: 0x0, symName: _mz_zip_reader_goto_first_entry, symObjAddr: 0x514, symBinAddr: 0x11848, symSize: 0x80 }
+  - { offsetInCU: 0xC76, offset: 0x63E43, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_open, symObjAddr: 0x5CC, symBinAddr: 0x11900, symSize: 0x140 }
+  - { offsetInCU: 0xF2E, offset: 0x640FB, size: 0x8, addend: 0x0, symName: _mz_zip_reader_open_file, symObjAddr: 0x2CC, symBinAddr: 0x11600, symSize: 0x74 }
+  - { offsetInCU: 0x1099, offset: 0x64266, size: 0x8, addend: 0x0, symName: _mz_zip_reader_open_file_in_memory, symObjAddr: 0x340, symBinAddr: 0x11674, symSize: 0x124 }
+  - { offsetInCU: 0x1329, offset: 0x644F6, size: 0x8, addend: 0x0, symName: _mz_zip_reader_open_buffer, symObjAddr: 0x464, symBinAddr: 0x11798, symSize: 0xB0 }
+  - { offsetInCU: 0x14CF, offset: 0x6469C, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_close, symObjAddr: 0x760, symBinAddr: 0x11A94, symSize: 0xC0 }
+  - { offsetInCU: 0x161F, offset: 0x647EC, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_get_info, symObjAddr: 0x594, symBinAddr: 0x118C8, symSize: 0x38 }
+  - { offsetInCU: 0x1689, offset: 0x64856, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_get_first_hash, symObjAddr: 0x924, symBinAddr: 0x11C58, symSize: 0xC4 }
+  - { offsetInCU: 0x17E7, offset: 0x649B4, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_read, symObjAddr: 0x70C, symBinAddr: 0x11A40, symSize: 0x54 }
+  - { offsetInCU: 0x18F6, offset: 0x64AC3, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_get_hash, symObjAddr: 0x9E8, symBinAddr: 0x11D1C, symSize: 0x100 }
+  - { offsetInCU: 0x1A83, offset: 0x64C50, size: 0x8, addend: 0x0, symName: _mz_zip_reader_locate_entry_cb, symObjAddr: 0x820, symBinAddr: 0x11B54, symSize: 0x14 }
+  - { offsetInCU: 0x1B17, offset: 0x64CE4, size: 0x8, addend: 0x0, symName: _mz_zip_reader_goto_next_entry, symObjAddr: 0x834, symBinAddr: 0x11B68, symSize: 0x80 }
+  - { offsetInCU: 0x1C15, offset: 0x64DE2, size: 0x8, addend: 0x0, symName: _mz_zip_reader_locate_entry, symObjAddr: 0x8B4, symBinAddr: 0x11BE8, symSize: 0x70 }
+  - { offsetInCU: 0x1D24, offset: 0x64EF1, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_has_sign, symObjAddr: 0xAE8, symBinAddr: 0x11E1C, symSize: 0x50 }
+  - { offsetInCU: 0x1DAE, offset: 0x64F7B, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_is_dir, symObjAddr: 0xB38, symBinAddr: 0x11E6C, symSize: 0x18 }
+  - { offsetInCU: 0x1DEF, offset: 0x64FBC, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_is_dir, symObjAddr: 0xB38, symBinAddr: 0x11E6C, symSize: 0x18 }
+  - { offsetInCU: 0x1E37, offset: 0x65004, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save_process, symObjAddr: 0xB50, symBinAddr: 0x11E84, symSize: 0xCC }
+  - { offsetInCU: 0x1F77, offset: 0x65144, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save, symObjAddr: 0xC1C, symBinAddr: 0x11F50, symSize: 0x13C }
+  - { offsetInCU: 0x211A, offset: 0x652E7, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save_file, symObjAddr: 0xD58, symBinAddr: 0x1208C, symSize: 0x2DC }
+  - { offsetInCU: 0x2659, offset: 0x65826, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save_buffer, symObjAddr: 0x1034, symBinAddr: 0x12368, symSize: 0xC8 }
+  - { offsetInCU: 0x2780, offset: 0x6594D, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save_buffer_length, symObjAddr: 0x10FC, symBinAddr: 0x12430, symSize: 0x34 }
+  - { offsetInCU: 0x27C1, offset: 0x6598E, size: 0x8, addend: 0x0, symName: _mz_zip_reader_entry_save_buffer_length, symObjAddr: 0x10FC, symBinAddr: 0x12430, symSize: 0x34 }
+  - { offsetInCU: 0x27E5, offset: 0x659B2, size: 0x8, addend: 0x0, symName: _mz_zip_reader_save_all, symObjAddr: 0x1130, symBinAddr: 0x12464, symSize: 0x138 }
+  - { offsetInCU: 0x29CB, offset: 0x65B98, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_pattern, symObjAddr: 0x1268, symBinAddr: 0x1259C, symSize: 0xC }
+  - { offsetInCU: 0x2A1F, offset: 0x65BEC, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_password, symObjAddr: 0x1274, symBinAddr: 0x125A8, symSize: 0x8 }
+  - { offsetInCU: 0x2A64, offset: 0x65C31, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_raw, symObjAddr: 0x127C, symBinAddr: 0x125B0, symSize: 0x8 }
+  - { offsetInCU: 0x2AA9, offset: 0x65C76, size: 0x8, addend: 0x0, symName: _mz_zip_reader_get_raw, symObjAddr: 0x1284, symBinAddr: 0x125B8, symSize: 0x20 }
+  - { offsetInCU: 0x2AF6, offset: 0x65CC3, size: 0x8, addend: 0x0, symName: _mz_zip_reader_get_zip_cd, symObjAddr: 0x12A4, symBinAddr: 0x125D8, symSize: 0x28 }
+  - { offsetInCU: 0x2B43, offset: 0x65D10, size: 0x8, addend: 0x0, symName: _mz_zip_reader_get_comment, symObjAddr: 0x12CC, symBinAddr: 0x12600, symSize: 0x1C }
+  - { offsetInCU: 0x2B93, offset: 0x65D60, size: 0x8, addend: 0x0, symName: _mz_zip_reader_get_comment, symObjAddr: 0x12CC, symBinAddr: 0x12600, symSize: 0x1C }
+  - { offsetInCU: 0x2BE1, offset: 0x65DAE, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_recover, symObjAddr: 0x12E8, symBinAddr: 0x1261C, symSize: 0x24 }
+  - { offsetInCU: 0x2C2E, offset: 0x65DFB, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_encoding, symObjAddr: 0x130C, symBinAddr: 0x12640, symSize: 0x10 }
+  - { offsetInCU: 0x2C73, offset: 0x65E40, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_sign_required, symObjAddr: 0x131C, symBinAddr: 0x12650, symSize: 0x10 }
+  - { offsetInCU: 0x2CB8, offset: 0x65E85, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_overwrite_cb, symObjAddr: 0x132C, symBinAddr: 0x12660, symSize: 0x8 }
+  - { offsetInCU: 0x2D0C, offset: 0x65ED9, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_password_cb, symObjAddr: 0x1334, symBinAddr: 0x12668, symSize: 0x8 }
+  - { offsetInCU: 0x2D60, offset: 0x65F2D, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_progress_cb, symObjAddr: 0x133C, symBinAddr: 0x12670, symSize: 0x8 }
+  - { offsetInCU: 0x2DB4, offset: 0x65F81, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_progress_interval, symObjAddr: 0x1344, symBinAddr: 0x12678, symSize: 0x8 }
+  - { offsetInCU: 0x2DF9, offset: 0x65FC6, size: 0x8, addend: 0x0, symName: _mz_zip_reader_set_entry_cb, symObjAddr: 0x134C, symBinAddr: 0x12680, symSize: 0x8 }
+  - { offsetInCU: 0x2E4D, offset: 0x6601A, size: 0x8, addend: 0x0, symName: _mz_zip_reader_get_zip_handle, symObjAddr: 0x1354, symBinAddr: 0x12688, symSize: 0x24 }
+  - { offsetInCU: 0x2E9A, offset: 0x66067, size: 0x8, addend: 0x0, symName: _mz_zip_reader_create, symObjAddr: 0x1378, symBinAddr: 0x126AC, symSize: 0x50 }
+  - { offsetInCU: 0x2ED8, offset: 0x660A5, size: 0x8, addend: 0x0, symName: _mz_zip_reader_delete, symObjAddr: 0x13C8, symBinAddr: 0x126FC, symSize: 0x3C }
+  - { offsetInCU: 0x2F28, offset: 0x660F5, size: 0x8, addend: 0x0, symName: _mz_zip_writer_zip_cd, symObjAddr: 0x1404, symBinAddr: 0x12738, symSize: 0x194 }
+  - { offsetInCU: 0x3211, offset: 0x663DE, size: 0x8, addend: 0x0, symName: _mz_zip_writer_entry_open, symObjAddr: 0x1598, symBinAddr: 0x128CC, symSize: 0x124 }
+  - { offsetInCU: 0x334D, offset: 0x6651A, size: 0x8, addend: 0x0, symName: _mz_zip_writer_entry_close, symObjAddr: 0x1710, symBinAddr: 0x12A44, symSize: 0x174 }
+  - { offsetInCU: 0x356A, offset: 0x66737, size: 0x8, addend: 0x0, symName: _mz_zip_writer_entry_write, symObjAddr: 0x16BC, symBinAddr: 0x129F0, symSize: 0x54 }
+  - { offsetInCU: 0x369E, offset: 0x6686B, size: 0x8, addend: 0x0, symName: _mz_zip_writer_is_open, symObjAddr: 0x1884, symBinAddr: 0x12BB8, symSize: 0x1C }
+  - { offsetInCU: 0x36C7, offset: 0x66894, size: 0x8, addend: 0x0, symName: _mz_zip_writer_open, symObjAddr: 0x18A0, symBinAddr: 0x12BD4, symSize: 0x14 }
+  - { offsetInCU: 0x371F, offset: 0x668EC, size: 0x8, addend: 0x0, symName: _mz_zip_writer_open_int, symObjAddr: 0x18B4, symBinAddr: 0x12BE8, symSize: 0x54 }
+  - { offsetInCU: 0x37DA, offset: 0x669A7, size: 0x8, addend: 0x0, symName: _mz_zip_writer_close, symObjAddr: 0x1A70, symBinAddr: 0x12DA4, symSize: 0xC0 }
+  - { offsetInCU: 0x38EC, offset: 0x66AB9, size: 0x8, addend: 0x0, symName: _mz_zip_writer_open_file, symObjAddr: 0x1908, symBinAddr: 0x12C3C, symSize: 0x168 }
+  - { offsetInCU: 0x3B6B, offset: 0x66D38, size: 0x8, addend: 0x0, symName: _mz_zip_writer_open_file_in_memory, symObjAddr: 0x1B30, symBinAddr: 0x12E64, symSize: 0x128 }
+  - { offsetInCU: 0x3DDD, offset: 0x66FAA, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add_process, symObjAddr: 0x1C58, symBinAddr: 0x12F8C, symSize: 0xA0 }
+  - { offsetInCU: 0x3EEE, offset: 0x670BB, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add, symObjAddr: 0x1CF8, symBinAddr: 0x1302C, symSize: 0x130 }
+  - { offsetInCU: 0x406F, offset: 0x6723C, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add_info, symObjAddr: 0x1E28, symBinAddr: 0x1315C, symSize: 0x90 }
+  - { offsetInCU: 0x4176, offset: 0x67343, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add_buffer, symObjAddr: 0x1EB8, symBinAddr: 0x131EC, symSize: 0xB8 }
+  - { offsetInCU: 0x42A0, offset: 0x6746D, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add_file, symObjAddr: 0x1F70, symBinAddr: 0x132A4, symSize: 0x240 }
+  - { offsetInCU: 0x4596, offset: 0x67763, size: 0x8, addend: 0x0, symName: _mz_zip_writer_add_path, symObjAddr: 0x21B0, symBinAddr: 0x134E4, symSize: 0x260 }
+  - { offsetInCU: 0x4882, offset: 0x67A4F, size: 0x8, addend: 0x0, symName: _mz_zip_writer_copy_from_reader, symObjAddr: 0x2410, symBinAddr: 0x13744, symSize: 0x140 }
+  - { offsetInCU: 0x4B1B, offset: 0x67CE8, size: 0x8, addend: 0x0, symName: _mz_zip_writer_get_zip_handle, symObjAddr: 0x2550, symBinAddr: 0x13884, symSize: 0x24 }
+  - { offsetInCU: 0x4B68, offset: 0x67D35, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_password, symObjAddr: 0x2574, symBinAddr: 0x138A8, symSize: 0x8 }
+  - { offsetInCU: 0x4BAD, offset: 0x67D7A, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_comment, symObjAddr: 0x257C, symBinAddr: 0x138B0, symSize: 0x8 }
+  - { offsetInCU: 0x4BF2, offset: 0x67DBF, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_raw, symObjAddr: 0x2584, symBinAddr: 0x138B8, symSize: 0x8 }
+  - { offsetInCU: 0x4C37, offset: 0x67E04, size: 0x8, addend: 0x0, symName: _mz_zip_writer_get_raw, symObjAddr: 0x258C, symBinAddr: 0x138C0, symSize: 0x20 }
+  - { offsetInCU: 0x4C84, offset: 0x67E51, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_aes, symObjAddr: 0x25AC, symBinAddr: 0x138E0, symSize: 0x8 }
+  - { offsetInCU: 0x4CC9, offset: 0x67E96, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_compress_method, symObjAddr: 0x25B4, symBinAddr: 0x138E8, symSize: 0x8 }
+  - { offsetInCU: 0x4D0E, offset: 0x67EDB, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_compress_level, symObjAddr: 0x25BC, symBinAddr: 0x138F0, symSize: 0x8 }
+  - { offsetInCU: 0x4D53, offset: 0x67F20, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_follow_links, symObjAddr: 0x25C4, symBinAddr: 0x138F8, symSize: 0x8 }
+  - { offsetInCU: 0x4D98, offset: 0x67F65, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_store_links, symObjAddr: 0x25CC, symBinAddr: 0x13900, symSize: 0x8 }
+  - { offsetInCU: 0x4DDD, offset: 0x67FAA, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_zip_cd, symObjAddr: 0x25D4, symBinAddr: 0x13908, symSize: 0x8 }
+  - { offsetInCU: 0x4E22, offset: 0x67FEF, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_certificate, symObjAddr: 0x25DC, symBinAddr: 0x13910, symSize: 0xF0 }
+  - { offsetInCU: 0x4F75, offset: 0x68142, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_overwrite_cb, symObjAddr: 0x26CC, symBinAddr: 0x13A00, symSize: 0x8 }
+  - { offsetInCU: 0x4FC9, offset: 0x68196, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_password_cb, symObjAddr: 0x26D4, symBinAddr: 0x13A08, symSize: 0x8 }
+  - { offsetInCU: 0x501D, offset: 0x681EA, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_progress_cb, symObjAddr: 0x26DC, symBinAddr: 0x13A10, symSize: 0x8 }
+  - { offsetInCU: 0x5071, offset: 0x6823E, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_progress_interval, symObjAddr: 0x26E4, symBinAddr: 0x13A18, symSize: 0x8 }
+  - { offsetInCU: 0x50B6, offset: 0x68283, size: 0x8, addend: 0x0, symName: _mz_zip_writer_set_entry_cb, symObjAddr: 0x26EC, symBinAddr: 0x13A20, symSize: 0x8 }
+  - { offsetInCU: 0x510A, offset: 0x682D7, size: 0x8, addend: 0x0, symName: _mz_zip_writer_create, symObjAddr: 0x26F4, symBinAddr: 0x13A28, symSize: 0x54 }
+  - { offsetInCU: 0x5148, offset: 0x68315, size: 0x8, addend: 0x0, symName: _mz_zip_writer_delete, symObjAddr: 0x2748, symBinAddr: 0x13A7C, symSize: 0x48 }
+  - { offsetInCU: 0x26, offset: 0x683E4, size: 0x8, addend: 0x0, symName: _mz_path_combine, symObjAddr: 0x0, symBinAddr: 0x13AC4, symSize: 0xA8 }
+  - { offsetInCU: 0x74, offset: 0x68432, size: 0x8, addend: 0x0, symName: _mz_path_combine, symObjAddr: 0x0, symBinAddr: 0x13AC4, symSize: 0xA8 }
+  - { offsetInCU: 0xF3, offset: 0x684B1, size: 0x8, addend: 0x0, symName: _mz_path_append_slash, symObjAddr: 0xA8, symBinAddr: 0x13B6C, symSize: 0x8C }
+  - { offsetInCU: 0x14E, offset: 0x6850C, size: 0x8, addend: 0x0, symName: _mz_path_remove_slash, symObjAddr: 0x134, symBinAddr: 0x13BF8, symSize: 0x5C }
+  - { offsetInCU: 0x189, offset: 0x68547, size: 0x8, addend: 0x0, symName: _mz_path_has_slash, symObjAddr: 0x190, symBinAddr: 0x13C54, symSize: 0x3C }
+  - { offsetInCU: 0x1C4, offset: 0x68582, size: 0x8, addend: 0x0, symName: _mz_path_convert_slashes, symObjAddr: 0x1CC, symBinAddr: 0x13C90, symSize: 0x68 }
+  - { offsetInCU: 0x22B, offset: 0x685E9, size: 0x8, addend: 0x0, symName: _mz_path_compare_wc, symObjAddr: 0x234, symBinAddr: 0x13CF8, symSize: 0xE4 }
+  - { offsetInCU: 0x2D8, offset: 0x68696, size: 0x8, addend: 0x0, symName: _mz_path_resolve, symObjAddr: 0x318, symBinAddr: 0x13DDC, symSize: 0x1C4 }
+  - { offsetInCU: 0x351, offset: 0x6870F, size: 0x8, addend: 0x0, symName: _mz_path_remove_filename, symObjAddr: 0x4DC, symBinAddr: 0x13FA0, symSize: 0x74 }
+  - { offsetInCU: 0x38C, offset: 0x6874A, size: 0x8, addend: 0x0, symName: _mz_path_remove_extension, symObjAddr: 0x550, symBinAddr: 0x14014, symSize: 0x7C }
+  - { offsetInCU: 0x3C7, offset: 0x68785, size: 0x8, addend: 0x0, symName: _mz_path_get_filename, symObjAddr: 0x5CC, symBinAddr: 0x14090, symSize: 0x54 }
+  - { offsetInCU: 0x414, offset: 0x687D2, size: 0x8, addend: 0x0, symName: _mz_dir_make, symObjAddr: 0x620, symBinAddr: 0x140E4, symSize: 0x94 }
+  - { offsetInCU: 0x4E2, offset: 0x688A0, size: 0x8, addend: 0x0, symName: _mz_file_get_crc, symObjAddr: 0x6B4, symBinAddr: 0x14178, symSize: 0xE8 }
+  - { offsetInCU: 0x26, offset: 0x68AB7, size: 0x8, addend: 0x0, symName: _mz_stream_os_open, symObjAddr: 0x0, symBinAddr: 0x14260, symSize: 0xA8 }
+  - { offsetInCU: 0x4E, offset: 0x68ADF, size: 0x8, addend: 0x0, symName: _mz_stream_os_vtbl, symObjAddr: 0x2D8, symBinAddr: 0x20918, symSize: 0x0 }
+  - { offsetInCU: 0x338, offset: 0x68DC9, size: 0x8, addend: 0x0, symName: _mz_stream_os_open, symObjAddr: 0x0, symBinAddr: 0x14260, symSize: 0xA8 }
+  - { offsetInCU: 0x3C5, offset: 0x68E56, size: 0x8, addend: 0x0, symName: _mz_stream_os_seek, symObjAddr: 0xA8, symBinAddr: 0x14308, symSize: 0x40 }
+  - { offsetInCU: 0x45B, offset: 0x68EEC, size: 0x8, addend: 0x0, symName: _mz_stream_os_is_open, symObjAddr: 0xE8, symBinAddr: 0x14348, symSize: 0x14 }
+  - { offsetInCU: 0x496, offset: 0x68F27, size: 0x8, addend: 0x0, symName: _mz_stream_os_read, symObjAddr: 0xFC, symBinAddr: 0x1435C, symSize: 0x68 }
+  - { offsetInCU: 0x521, offset: 0x68FB2, size: 0x8, addend: 0x0, symName: _mz_stream_os_write, symObjAddr: 0x164, symBinAddr: 0x143C4, symSize: 0x68 }
+  - { offsetInCU: 0x59A, offset: 0x6902B, size: 0x8, addend: 0x0, symName: _mz_stream_os_tell, symObjAddr: 0x1CC, symBinAddr: 0x1442C, symSize: 0x3C }
+  - { offsetInCU: 0x606, offset: 0x69097, size: 0x8, addend: 0x0, symName: _mz_stream_os_close, symObjAddr: 0x208, symBinAddr: 0x14468, symSize: 0x40 }
+  - { offsetInCU: 0x671, offset: 0x69102, size: 0x8, addend: 0x0, symName: _mz_stream_os_error, symObjAddr: 0x248, symBinAddr: 0x144A8, symSize: 0x8 }
+  - { offsetInCU: 0x6AC, offset: 0x6913D, size: 0x8, addend: 0x0, symName: _mz_stream_os_create, symObjAddr: 0x250, symBinAddr: 0x144B0, symSize: 0x40 }
+  - { offsetInCU: 0x6E7, offset: 0x69178, size: 0x8, addend: 0x0, symName: _mz_stream_os_delete, symObjAddr: 0x290, symBinAddr: 0x144F0, symSize: 0x30 }
+  - { offsetInCU: 0x71E, offset: 0x691AF, size: 0x8, addend: 0x0, symName: _mz_stream_os_get_interface, symObjAddr: 0x2C0, symBinAddr: 0x14520, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x691F0, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isFilePasswordProtectedAtPath:]', symObjAddr: 0x0, symBinAddr: 0x1452C, symSize: 0xFC }
+  - { offsetInCU: 0x41, offset: 0x6920A, size: 0x8, addend: 0x0, symName: _SSZipArchiveErrorDomain, symObjAddr: 0x4818, symBinAddr: 0x1C370, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x6922C, size: 0x8, addend: 0x0, symName: '+[SSZipArchive _gregorian]', symObjAddr: 0x39D0, symBinAddr: 0x17EFC, symSize: 0x40 }
+  - { offsetInCU: 0x8F, offset: 0x69258, size: 0x8, addend: 0x0, symName: __gregorian.gregorian, symObjAddr: 0x148A8, symBinAddr: 0x209D8, symSize: 0x0 }
+  - { offsetInCU: 0xA6, offset: 0x6926F, size: 0x8, addend: 0x0, symName: __gregorian.onceToken, symObjAddr: 0x148B0, symBinAddr: 0x209E0, symSize: 0x0 }
+  - { offsetInCU: 0xED, offset: 0x692B6, size: 0x8, addend: 0x0, symName: '+[SSZipArchive _dateWithMSDOSFormat:]', symObjAddr: 0x3A4C, symBinAddr: 0x17F78, symSize: 0xBC }
+  - { offsetInCU: 0x24B, offset: 0x69414, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isFilePasswordProtectedAtPath:]', symObjAddr: 0x0, symBinAddr: 0x1452C, symSize: 0xFC }
+  - { offsetInCU: 0x5AF, offset: 0x69778, size: 0x8, addend: 0x0, symName: '+[SSZipArchive isPasswordValidForArchiveAtPath:password:error:]', symObjAddr: 0xFC, symBinAddr: 0x14628, symSize: 0x418 }
+  - { offsetInCU: 0x836, offset: 0x699FF, size: 0x8, addend: 0x0, symName: '+[SSZipArchive payloadSizeForArchiveAtPath:error:]', symObjAddr: 0x514, symBinAddr: 0x14A40, symSize: 0x26C }
+  - { offsetInCU: 0x984, offset: 0x69B4D, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:]', symObjAddr: 0x780, symBinAddr: 0x14CAC, symSize: 0x8 }
+  - { offsetInCU: 0x9D5, offset: 0x69B9E, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:overwrite:password:error:]', symObjAddr: 0x788, symBinAddr: 0x14CB4, symSize: 0x34 }
+  - { offsetInCU: 0xA5C, offset: 0x69C25, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:delegate:]', symObjAddr: 0x7BC, symBinAddr: 0x14CE8, symSize: 0x34 }
+  - { offsetInCU: 0xAC3, offset: 0x69C8C, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:overwrite:password:error:delegate:]', symObjAddr: 0x7F0, symBinAddr: 0x14D1C, symSize: 0x38 }
+  - { offsetInCU: 0xB5A, offset: 0x69D23, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:overwrite:password:progressHandler:completionHandler:]', symObjAddr: 0x828, symBinAddr: 0x14D54, symSize: 0x38 }
+  - { offsetInCU: 0xBF8, offset: 0x69DC1, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:progressHandler:completionHandler:]', symObjAddr: 0x860, symBinAddr: 0x14D8C, symSize: 0x34 }
+  - { offsetInCU: 0xC74, offset: 0x69E3D, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:preserveAttributes:overwrite:password:error:delegate:]', symObjAddr: 0x894, symBinAddr: 0x14DC0, symSize: 0x28 }
+  - { offsetInCU: 0xD22, offset: 0x69EEB, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:preserveAttributes:overwrite:password:error:delegate:progressHandler:completionHandler:]', symObjAddr: 0x8BC, symBinAddr: 0x14DE8, symSize: 0x3C }
+  - { offsetInCU: 0xDF0, offset: 0x69FB9, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:preserveAttributes:overwrite:nestedZipLevel:password:error:delegate:progressHandler:completionHandler:]', symObjAddr: 0x8F8, symBinAddr: 0x14E24, symSize: 0x3C }
+  - { offsetInCU: 0xF2D, offset: 0x6A0F6, size: 0x8, addend: 0x0, symName: '+[SSZipArchive unzipFileAtPath:toDestination:preserveAttributes:overwrite:symlinksValidWithin:nestedZipLevel:password:error:delegate:progressHandler:completionHandler:]', symObjAddr: 0x934, symBinAddr: 0x14E60, symSize: 0x1924 }
+  - { offsetInCU: 0x194D, offset: 0x6AB16, size: 0x8, addend: 0x0, symName: __fileIsSymbolicLink, symObjAddr: 0x2258, symBinAddr: 0x16784, symSize: 0x2C }
+  - { offsetInCU: 0x198F, offset: 0x6AB58, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withFilesAtPaths:]', symObjAddr: 0x2284, symBinAddr: 0x167B0, symSize: 0x10 }
+  - { offsetInCU: 0x19E1, offset: 0x6ABAA, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:]', symObjAddr: 0x2294, symBinAddr: 0x167C0, symSize: 0x10 }
+  - { offsetInCU: 0x1A33, offset: 0x6ABFC, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:]', symObjAddr: 0x22A4, symBinAddr: 0x167D0, symSize: 0x10 }
+  - { offsetInCU: 0x1A99, offset: 0x6AC62, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withFilesAtPaths:withPassword:]', symObjAddr: 0x22B4, symBinAddr: 0x167E0, symSize: 0x8 }
+  - { offsetInCU: 0x1AFC, offset: 0x6ACC5, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withFilesAtPaths:withPassword:progressHandler:]', symObjAddr: 0x22BC, symBinAddr: 0x167E8, symSize: 0x260 }
+  - { offsetInCU: 0x1C2C, offset: 0x6ADF5, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:withPassword:]', symObjAddr: 0x251C, symBinAddr: 0x16A48, symSize: 0x14 }
+  - { offsetInCU: 0x1C8F, offset: 0x6AE58, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:withPassword:]', symObjAddr: 0x2530, symBinAddr: 0x16A5C, symSize: 0x10 }
+  - { offsetInCU: 0x1D04, offset: 0x6AECD, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:withPassword:andProgressHandler:]', symObjAddr: 0x2540, symBinAddr: 0x16A6C, symSize: 0x30 }
+  - { offsetInCU: 0x1D91, offset: 0x6AF5A, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:compressionLevel:password:AES:progressHandler:]', symObjAddr: 0x2570, symBinAddr: 0x16A9C, symSize: 0x3AC }
+  - { offsetInCU: 0x1F43, offset: 0x6B10C, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withFilesAtPaths:withPassword:keepSymlinks:]', symObjAddr: 0x291C, symBinAddr: 0x16E48, symSize: 0x1F0 }
+  - { offsetInCU: 0x201C, offset: 0x6B1E5, size: 0x8, addend: 0x0, symName: '+[SSZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:compressionLevel:password:AES:progressHandler:keepSymlinks:]', symObjAddr: 0x2B0C, symBinAddr: 0x17038, symSize: 0x3D8 }
+  - { offsetInCU: 0x21E5, offset: 0x6B3AE, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeSymlinkFileAtPath:withFileName:compressionLevel:password:AES:]', symObjAddr: 0x2EE4, symBinAddr: 0x17410, symSize: 0x1D0 }
+  - { offsetInCU: 0x23FC, offset: 0x6B5C5, size: 0x8, addend: 0x0, symName: __zipOpenEntry, symObjAddr: 0x30B4, symBinAddr: 0x175E0, symSize: 0xE0 }
+  - { offsetInCU: 0x25DB, offset: 0x6B7A4, size: 0x8, addend: 0x0, symName: '-[SSZipArchive init]', symObjAddr: 0x3194, symBinAddr: 0x176C0, symSize: 0x10 }
+  - { offsetInCU: 0x260F, offset: 0x6B7D8, size: 0x8, addend: 0x0, symName: '-[SSZipArchive initWithPath:]', symObjAddr: 0x31A4, symBinAddr: 0x176D0, symSize: 0x78 }
+  - { offsetInCU: 0x2658, offset: 0x6B821, size: 0x8, addend: 0x0, symName: '-[SSZipArchive open]', symObjAddr: 0x321C, symBinAddr: 0x17748, symSize: 0x38 }
+  - { offsetInCU: 0x26BC, offset: 0x6B885, size: 0x8, addend: 0x0, symName: '-[SSZipArchive openForAppending]', symObjAddr: 0x3254, symBinAddr: 0x17780, symSize: 0x38 }
+  - { offsetInCU: 0x2709, offset: 0x6B8D2, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeFolderAtPath:withFolderName:withPassword:]', symObjAddr: 0x328C, symBinAddr: 0x177B8, symSize: 0xF8 }
+  - { offsetInCU: 0x280C, offset: 0x6B9D5, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeFile:withPassword:]', symObjAddr: 0x3384, symBinAddr: 0x178B0, symSize: 0xC }
+  - { offsetInCU: 0x2862, offset: 0x6BA2B, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeFileAtPath:withFileName:withPassword:]', symObjAddr: 0x3390, symBinAddr: 0x178BC, symSize: 0x10 }
+  - { offsetInCU: 0x28C7, offset: 0x6BA90, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeFileAtPath:withFileName:compressionLevel:password:AES:]', symObjAddr: 0x33A0, symBinAddr: 0x178CC, symSize: 0x190 }
+  - { offsetInCU: 0x2A7D, offset: 0x6BC46, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeData:filename:withPassword:]', symObjAddr: 0x3530, symBinAddr: 0x17A5C, symSize: 0x10 }
+  - { offsetInCU: 0x2AE2, offset: 0x6BCAB, size: 0x8, addend: 0x0, symName: '-[SSZipArchive writeData:filename:compressionLevel:password:AES:]', symObjAddr: 0x3540, symBinAddr: 0x17A6C, symSize: 0x14C }
+  - { offsetInCU: 0x2BFA, offset: 0x6BDC3, size: 0x8, addend: 0x0, symName: '-[SSZipArchive close]', symObjAddr: 0x368C, symBinAddr: 0x17BB8, symSize: 0x34 }
+  - { offsetInCU: 0x2C6F, offset: 0x6BE38, size: 0x8, addend: 0x0, symName: '+[SSZipArchive _filenameStringWithCString:version_made_by:general_purpose_flag:size:]', symObjAddr: 0x36C0, symBinAddr: 0x17BEC, symSize: 0x100 }
+  - { offsetInCU: 0x2D8F, offset: 0x6BF58, size: 0x8, addend: 0x0, symName: '+[SSZipArchive zipInfo:setAttributesOfItemAtPath:]', symObjAddr: 0x37C0, symBinAddr: 0x17CEC, symSize: 0x130 }
+  - { offsetInCU: 0x2E65, offset: 0x6C02E, size: 0x8, addend: 0x0, symName: '+[SSZipArchive zipInfo:setDate:]', symObjAddr: 0x38F0, symBinAddr: 0x17E1C, symSize: 0xE0 }
+  - { offsetInCU: 0x2F6C, offset: 0x6C135, size: 0x8, addend: 0x0, symName: '___26+[SSZipArchive _gregorian]_block_invoke', symObjAddr: 0x3A10, symBinAddr: 0x17F3C, symSize: 0x3C }
+  - { offsetInCU: 0x2F95, offset: 0x6C15E, size: 0x8, addend: 0x0, symName: '-[SSZipArchive .cxx_destruct]', symObjAddr: 0x3B08, symBinAddr: 0x18034, symSize: 0xC }
+  - { offsetInCU: 0x2FC8, offset: 0x6C191, size: 0x8, addend: 0x0, symName: '-[NSData(SSZipArchive) _base64RFC4648]', symObjAddr: 0x3B14, symBinAddr: 0x18040, symSize: 0x84 }
+  - { offsetInCU: 0x3011, offset: 0x6C1DA, size: 0x8, addend: 0x0, symName: '-[NSData(SSZipArchive) _hexString]', symObjAddr: 0x3B98, symBinAddr: 0x180C4, symSize: 0xD4 }
+  - { offsetInCU: 0x30BC, offset: 0x6C285, size: 0x8, addend: 0x0, symName: '-[NSString(SSZipArchive) _sanitizedPath]', symObjAddr: 0x3C6C, symBinAddr: 0x18198, symSize: 0x158 }
+  - { offsetInCU: 0x3105, offset: 0x6C2CE, size: 0x8, addend: 0x0, symName: '-[NSString(SSZipArchive) _escapesTargetDirectory:]', symObjAddr: 0x3DC4, symBinAddr: 0x182F0, symSize: 0x198 }
+  - { offsetInCU: 0x26, offset: 0x6C618, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_open, symObjAddr: 0x0, symBinAddr: 0x18488, symSize: 0x20 }
+  - { offsetInCU: 0x40, offset: 0x6C632, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_vtbl, symObjAddr: 0x620, symBinAddr: 0x20978, symSize: 0x0 }
+  - { offsetInCU: 0x3ED, offset: 0x6C9DF, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_open, symObjAddr: 0x0, symBinAddr: 0x18488, symSize: 0x20 }
+  - { offsetInCU: 0x4A5, offset: 0x6CA97, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_is_open, symObjAddr: 0x20, symBinAddr: 0x184A8, symSize: 0x8 }
+  - { offsetInCU: 0x500, offset: 0x6CAF2, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_read, symObjAddr: 0x28, symBinAddr: 0x184B0, symSize: 0x170 }
+  - { offsetInCU: 0x628, offset: 0x6CC1A, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_flush, symObjAddr: 0x198, symBinAddr: 0x18620, symSize: 0x8C }
+  - { offsetInCU: 0x6C9, offset: 0x6CCBB, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_seek, symObjAddr: 0x224, symBinAddr: 0x186AC, symSize: 0x18C }
+  - { offsetInCU: 0x7F6, offset: 0x6CDE8, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_write, symObjAddr: 0x3B0, symBinAddr: 0x18838, symSize: 0x138 }
+  - { offsetInCU: 0x8DF, offset: 0x6CED1, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_tell, symObjAddr: 0x4E8, symBinAddr: 0x18970, symSize: 0x60 }
+  - { offsetInCU: 0x94A, offset: 0x6CF3C, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_close, symObjAddr: 0x548, symBinAddr: 0x189D0, symSize: 0x4C }
+  - { offsetInCU: 0x9FE, offset: 0x6CFF0, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_error, symObjAddr: 0x594, symBinAddr: 0x18A1C, symSize: 0x8 }
+  - { offsetInCU: 0xA5C, offset: 0x6D04E, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_create, symObjAddr: 0x59C, symBinAddr: 0x18A24, symSize: 0x44 }
+  - { offsetInCU: 0xA9A, offset: 0x6D08C, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_delete, symObjAddr: 0x5E0, symBinAddr: 0x18A68, symSize: 0x30 }
+  - { offsetInCU: 0xAD4, offset: 0x6D0C6, size: 0x8, addend: 0x0, symName: _mz_stream_buffered_get_interface, symObjAddr: 0x610, symBinAddr: 0x18A98, symSize: 0xC }
+...

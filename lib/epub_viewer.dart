@@ -26,7 +26,7 @@ class VocsyEpub {
       {Color themeColor = Colors.blue,
       String identifier = 'book',
       bool nightMode = false,
-      EpubScrollDirection scrollDirection = EpubScrollDirection.ALLDIRECTIONS,
+      EpubScrollDirection scrollDirection = EpubScrollDirection.HORIZONTAL,
       bool allowSharing = false,
       bool enableTts = false}) async {
     Map<String, dynamic> agrs = {

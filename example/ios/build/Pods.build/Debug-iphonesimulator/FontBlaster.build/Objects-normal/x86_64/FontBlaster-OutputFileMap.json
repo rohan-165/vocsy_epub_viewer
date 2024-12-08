@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster-master.dia",
+    "emit-module-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster-master.swiftdeps"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/Pods/FontBlaster/Sources/FontBlaster.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphonesimulator/FontBlaster.build/Objects-normal/x86_64/FontBlaster~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,10 @@
+framework module vocsy_epub_viewer {
+  umbrella header "vocsy_epub_viewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module vocsy_epub_viewer.__Swift {
+  exclude header "vocsy_epub_viewer-Swift.h"
+}

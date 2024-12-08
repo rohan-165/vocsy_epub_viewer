@@ -1,0 +1,138 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11folioReader02b_B005FolioI0CvpMV",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCN",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvs",
+            "_vocsy_epub_viewerVersionString",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvgTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC12pageWillLoadyy02b_B015FolioReaderPageCF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvMTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0Ovg",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCACycfc",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvgTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvM",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvsTq",
+            "_$sSo7UIColorC17vocsy_epub_viewerE9hexStringySSSbF",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvg",
+            "_$s17vocsy_epub_viewer10EpubConfigC19readerConfiguration33_A18A682D5EC6707A06C4AABBCF800C5DLLyyF",
+            "_$s17vocsy_epub_viewer10EpubConfigCACycfC",
+            "_$s17vocsy_epub_viewer10EpubConfigCN",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvM",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvpMV",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvpWvd",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0Ovpfi",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvpWvd",
+            "_$s17vocsy_epub_viewer10EpubConfigCMa",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvgTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC10pageResultyypSgcSgvgZ",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvsTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11pageChannelSo012FlutterEventI0CSgvpZ",
+            "_$sSo7UIColorC17vocsy_epub_viewerE25colorWithBrightnessFactoryAB12CoreGraphics7CGFloatVF",
+            "_$sSo7UIColorC17vocsy_epub_viewerE4rgbaABSS_tcfC",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvpMV",
+            "_$sSo7UIColorC17vocsy_epub_viewerE12lighterColoryABSdF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11folioReader02b_B005FolioI0CvpWvd",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvMTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvg",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvs",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s17vocsy_epub_viewer10EpubConfigC10Identifier9tintColor12allowSharing15scrollDirection9enableTts9nightModeACSS_SSSbSSS2btcfCTq",
+            "_$sSo7UIColorC17vocsy_epub_viewerE11darkerColoryABSdF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC8register4withySo07FlutterG9Registrar_p_tFZ",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvpfi",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvpWvd",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvs",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvgTq",
+            "_$s17vocsy_epub_viewer10EpubConfigCACycfc",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0Ovs",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11pageChannelSo012FlutterEventI0CSgvau",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvMTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvpfi",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC15scrollDirection02b_B0017FolioReaderScrollG0OvsTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC10pageResultyypSgcSgvau",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11pageChannelSo012FlutterEventI0CSgvgZ",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC10pageResultyypSgcSgvpZ",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvpfi",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvM",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCMn",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC5close33_B3317C6C5E888DC2F38569AB3D258835LLyyF",
+            "_$s17vocsy_epub_viewer10EpubConfigC10Identifier9tintColor12allowSharing15scrollDirection9enableTts9nightModeACSS_SSSbSSS2btcfC",
+            "_Swift51Overrides",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvpfi",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvpMV",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvpMV",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvsTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvs",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvpWvd",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvM",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvg",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC10pageResultyypSgcSgvMZ",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11folioReader02b_B005FolioI0Cvpfi",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvg",
+            "_$s17vocsy_epub_viewer10EpubConfigC10Identifier9tintColor12allowSharing15scrollDirection9enableTts9nightModeACSS_SSSbSSS2btcfc",
+            "_$s17vocsy_epub_viewer10EpubConfigC12allowSharingSbvsTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC4open33_B3317C6C5E888DC2F38569AB3D258835LL0B4PathySS_tF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11pageChannelSo012FlutterEventI0CSgvsZ",
+            "_$s17vocsy_epub_viewer10EpubConfigCMn",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvgTq",
+            "_vocsy_epub_viewerVersionNumber",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11folioReader02b_B005FolioI0Cvg",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvMTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC12pageWillLoadyy02b_B015FolioReaderPageCFTq",
+            "_$s17vocsy_epub_viewer10EpubConfigCfD",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCMa",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC6configAA0E6ConfigCSgvpWvd",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC10pageResultyypSgcSgvsZ",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC14setPageHandler33_B3317C6C5E888DC2F38569AB3D258835LLyyF",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvM",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCACycfC",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginCfD",
+            "_$sSo7UIColorC17vocsy_epub_viewerE14highlightColorAByF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+            "_$s17vocsy_epub_viewer21SwiftEpubViewerPluginC11pageChannelSo012FlutterEventI0CSgvMZ",
+            "_$s17vocsy_epub_viewer10EpubConfigC9tintColorSo7UIColorCvMTq",
+            "_$s17vocsy_epub_viewer10EpubConfigC6config02b_B0011FolioReaderE0CSgvpMV"
+          ],
+          "objc_class": [
+            "EpubViewerPlugin",
+            "_TtC17vocsy_epub_viewer21SwiftEpubViewerPlugin",
+            "_TtC17vocsy_epub_viewer10EpubConfig",
+            "PodsDummy_vocsy_epub_viewer"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/vocsy_epub_viewer.framework/vocsy_epub_viewer"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "13",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

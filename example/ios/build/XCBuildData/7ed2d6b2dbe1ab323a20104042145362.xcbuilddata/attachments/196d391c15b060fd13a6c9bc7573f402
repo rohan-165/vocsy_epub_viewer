@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/vocsy_epub_viewer-master.dia",
+    "emit-module-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/vocsy_epub_viewer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/vocsy_epub_viewer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/vocsy_epub_viewer-master.swiftdeps"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/ios/Classes/EpubConfig.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/EpubConfig~partial.swiftmodule"
+  },
+  "/Users/anjal/Downloads/vocsy_epub_viewer/ios/Classes/SwiftEpubKittyPlugin.swift" : {
+    "const-values" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.swiftconstvalues",
+    "dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.d",
+    "diagnostics" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.o",
+    "llvm-bc" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.bc",
+    "object" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.o",
+    "swift-dependencies" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin.swiftdeps",
+    "swiftmodule" : "/Users/anjal/Downloads/vocsy_epub_viewer/example/ios/build/Pods.build/Debug-iphoneos/vocsy_epub_viewer.build/Objects-normal/arm64/SwiftEpubKittyPlugin~partial.swiftmodule"
+  }
+}
