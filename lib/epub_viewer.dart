@@ -49,46 +49,48 @@ class VocsyEpub {
       'lastLocation':
           lastLocation == null ? '' : jsonEncode(lastLocation.toJson()),
     };
+    _channel.invokeMethod('setChannel');
+    await _channel.invokeMethod('open', args);
 
-    try {
-      // Fetch the Android version
-      String? version;
-      try {
-        version = await _channel.invokeMethod('getAndroidVersion');
-      } on PlatformException catch (e) {
-        print("Failed to get Android version: ${e.message}");
-        return;
-      }
+    // try {
+    //   // Fetch the Android version
+    //   String? version;
+    //   try {
+    //     version = await _channel.invokeMethod('getAndroidVersion');
+    //   } on PlatformException catch (e) {
+    //     print("Failed to get Android version: ${e.message}");
+    //     return;
+    //   }
 
-      if (version == null || version.isEmpty) {
-        throw Exception("Unable to fetch Android version.");
-      }
+    //   if (version == null || version.isEmpty) {
+    //     throw Exception("Unable to fetch Android version.");
+    //   }
 
-      // Extract major version
-      String majorVersion = version.split(".").first;
-      int intValue = int.parse(majorVersion);
+    //   // Extract major version
+    //   String majorVersion = version.split(".").first;
+    //   int intValue = int.parse(majorVersion);
 
-      // Handle Android 13+ or below 13 logic
-      if (intValue >= 13) {
-        await _openBook(args);
-      } else {
-        final PermissionStatus status = await Permission.storage.request();
-        if (status == PermissionStatus.granted) {
-          await _openBook(args);
-        } else if (status == PermissionStatus.denied) {
-          print("Storage permission denied by user.");
-          throw Exception("Storage permission is required to proceed.");
-        } else if (status == PermissionStatus.permanentlyDenied) {
-          print("Storage permission permanently denied.");
-          await openAppSettings(); // Suggest user to change permissions in app settings
-        }
-      }
+    //   // Handle Android 13+ or below 13 logic
+    //   if (intValue >= 13) {
+    //     await _openBook(args);
+    //   } else {
+    //     final PermissionStatus status = await Permission.storage.request();
+    //     if (status == PermissionStatus.granted) {
+    //       await _openBook(args);
+    //     } else if (status == PermissionStatus.denied) {
+    //       print("Storage permission denied by user.");
+    //       throw Exception("Storage permission is required to proceed.");
+    //     } else if (status == PermissionStatus.permanentlyDenied) {
+    //       print("Storage permission permanently denied.");
+    //       await openAppSettings(); // Suggest user to change permissions in app settings
+    //     }
+    //   }
 
-      print("Android Version: $intValue");
-    } catch (e) {
-      // Catch and log any exceptions
-      print("Error occurred: $e");
-    }
+    //   print("Android Version: $intValue");
+    // } catch (e) {
+    //   // Catch and log any exceptions
+    //   print("Error occurred: $e");
+    // }
   }
 
   /// Helper method to invoke `_channel` methods for opening the book
