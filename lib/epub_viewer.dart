@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -16,7 +15,6 @@ class VocsyEpub {
   static const MethodChannel _channel =
       const MethodChannel('vocsy_epub_viewer');
   static const EventChannel _pageChannel = const EventChannel('page');
-  static const _platform = MethodChannel('my_channel');
 
   /// Configure Viewer's with available values
   ///
@@ -56,7 +54,7 @@ class VocsyEpub {
       // Fetch the Android version
       String? version;
       try {
-        version = await _platform.invokeMethod('getAndroidVersion');
+        version = await _channel.invokeMethod('getAndroidVersion');
       } on PlatformException catch (e) {
         print("Failed to get Android version: ${e.message}");
         return;

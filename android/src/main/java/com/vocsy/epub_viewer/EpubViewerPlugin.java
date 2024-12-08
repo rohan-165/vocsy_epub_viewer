@@ -2,6 +2,7 @@ package com.vocsy.epub_viewer;
 
 import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.util.Log;
 
 import java.util.Map;
@@ -111,6 +112,7 @@ public class EpubViewerPlugin implements MethodCallHandler, FlutterPlugin, Activ
 
     }
 
+
     @Override
     public void onDetachedFromActivity() {
         activity = null;
@@ -161,7 +163,11 @@ public class EpubViewerPlugin implements MethodCallHandler, FlutterPlugin, Activ
 
                 }
             });
-        } else {
+        }  else if (call.method.equals("getAndroidVersion")) {
+            String androidVersion = Build.VERSION.RELEASE;
+            result.success(androidVersion);
+        }
+        else {
             result.notImplemented();
         }
     }
