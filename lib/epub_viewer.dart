@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:permission_handler/permission_handler.dart';
+
 
 part 'model/enum/epub_scroll_direction.dart';
 part 'model/epub_locator.dart';
@@ -52,39 +52,7 @@ class VocsyEpub {
 
     try {
       // Fetch the Android version
-      String? version;
-      try {
-        version = await _channel.invokeMethod('getAndroidVersion');
-      } on PlatformException catch (e) {
-        print("Failed to get Android version: ${e.message}");
-        return;
-      }
-
-      if (version == null || version.isEmpty) {
-        throw Exception("Unable to fetch Android version.");
-      }
-
-      // Extract major version
-      String majorVersion = version.split(".").first;
-      int intValue = int.parse(majorVersion);
-
-      // Handle Android 13+ or below 13 logic
-      if (intValue >= 13) {
-        await _openBook(args);
-      } else {
-        final PermissionStatus status = await Permission.storage.request();
-        if (status == PermissionStatus.granted) {
-          await _openBook(args);
-        } else if (status == PermissionStatus.denied) {
-          print("Storage permission denied by user.");
-          throw Exception("Storage permission is required to proceed.");
-        } else if (status == PermissionStatus.permanentlyDenied) {
-          print("Storage permission permanently denied.");
-          await openAppSettings(); // Suggest user to change permissions in app settings
-        }
-      }
-
-      print("Android Version: $intValue");
+      await _openBook(args);
     } catch (e) {
       // Catch and log any exceptions
       print("Error occurred: $e");

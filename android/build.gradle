@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.vocsy.epub_viewer'
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 21
@@ -41,6 +41,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     implementation 'com.github.kittinunf.fuel:fuel-android:2.3.1'
     implementation 'com.github.kittinunf.fuel:fuel:2.3.1'
+    implementation 'androidx.annotation:annotation-jvm:1.9.1'
+    implementation 'androidx.core:core:1.12.0'
 }
 
 
