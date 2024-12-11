@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {
-    download();
+    // download();
     super.initState();
   }
 
