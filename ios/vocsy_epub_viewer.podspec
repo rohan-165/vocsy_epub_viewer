@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.dependency 'FolioReaderKit'
   
   # s.dependency 'EpubViewerKit', '~> 0.1.3'
-  s.dependency 'b_epub', '~> 1.0.0'
+  # s.dependency 'b_epub', '~> 1.0.0'
 
   # s.ios.deployment_target = '13.0'
   # s.dependency 'SSZipArchive', '1.5'
